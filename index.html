@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>115學年-1 課堂形成性評量系統｜國語・數學・社會</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body data-subject="home">
+  <header class="podium-header">
+    <div class="podium-header-inner">
+      <div class="brand-group">
+        <a class="brand-link" href="index.html">
+          <span class="brand-seal">評</span>
+          <span class="brand-title">115學年-1 課堂形成性評量</span>
+        </a>
+        <nav class="subject-tabs" aria-label="科目分頁">
+          <a class="subject-tab is-active" href="index.html"><span class="subject-dot subject-dot--home"></span>總覽</a>
+          <a class="subject-tab" href="chinese.html"><span class="subject-dot subject-dot--chinese"></span>國語</a>
+          <a class="subject-tab" href="math.html"><span class="subject-dot subject-dot--math"></span>數學</a>
+          <a class="subject-tab" href="social.html"><span class="subject-dot subject-dot--social"></span>社會</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <section class="home-hero">
+      <div>
+        <div class="hero-eyebrow">115 學年度第 1 學期 · 國小六年級素養導向教學講台</div>
+        <h1 class="hero-title">每週時事課堂形成性評量</h1>
+        <p class="hero-desc">
+          專為課堂投影與師生即時互動設計：預設隱藏解答避免提前暴雷，支援選項刪去法、分層揭曉答案與評分規準、思考計時、隨機抽號與板書畫筆，亦可一鍵列印空白學習單或教師解答卷。
+        </p>
+      </div>
+      <div class="hero-stats" id="heroStats" aria-label="題庫統計">
+        <div class="hero-stat"><span class="hero-stat-label">收錄科目</span><span class="hero-stat-val">3 科</span></div>
+        <div class="hero-stat"><span class="hero-stat-label">涵蓋週次</span><span class="hero-stat-val">--</span></div>
+        <div class="hero-stat"><span class="hero-stat-label">累積素養題</span><span class="hero-stat-val">--</span></div>
+      </div>
+    </section>
+
+    <section class="subject-grid" id="subjectGrid" aria-label="科目入口"></section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <h2>各週教學進度與評量一覽</h2>
+        <span>點擊任一單元直接進入該週講台</span>
+      </div>
+      <div class="matrix-card">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th style="width:110px;">週次</th>
+              <th>國語（翰林）</th>
+              <th>數學（康軒）</th>
+              <th>社會（南一）</th>
+            </tr>
+          </thead>
+          <tbody id="matrixBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <details class="guide-details">
+      <summary class="guide-summary">
+        <span>每週更新試題檔案與配圖指南</span>
+        <span class="guide-summary-hint">支援 .docx / .pdf / .md 自動轉換 ▾</span>
+      </summary>
+      <div class="guide-body">
+        <div class="guide-step">
+          <div class="guide-step-num">STEP 01</div>
+          <h3>放入更新後的試題檔</h3>
+          <p>將最新週次的 <code>.docx</code>、<code>.pdf</code> 或 <code>.md</code> 放進對應資料夾：<code>sources/chinese/</code>、<code>sources/math/</code>、<code>sources/social/</code>。若有本地圖檔，直接放入各科的 <code>images/</code> 資料夾。</p>
+        </div>
+        <div class="guide-step">
+          <div class="guide-step-num">STEP 02</div>
+          <h3>一鍵同步題庫資料</h3>
+          <p>雙擊專案目錄中的 <code>update.command</code>，或在終端機執行 <code>python3 scripts/build_data.py</code>，系統會自動解析所有週次、擷取 PDF 配圖並輸出最新 JSON 至 <code>data/</code>。</p>
+        </div>
+        <div class="guide-step">
+          <div class="guide-step-num">STEP 03</div>
+          <h3>推送至 GitHub 自動發布</h3>
+          <p>執行 <code>git push</code>（或直接在 GitHub 網頁版上傳更新檔），內建的 GitHub Actions 工作流程將自動重新解析並更新 GitHub Pages 線上網站。</p>
+        </div>
+      </div>
+    </details>
+  </main>
+
+  <footer class="site-footer">
+    <span>115學年-1 課堂形成性評量系統 · 依科目分頁與每週進度自動同步</span>
+    <span id="footerGeneratedAt">資料讀取中...</span>
+  </footer>
+
+  <script src="js/format.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

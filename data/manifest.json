@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-11-24T13:16:11+08:00",
+  "subjects": {
+    "chinese": {
+      "subject": "chinese",
+      "label": "國語",
+      "title": "115學年-1每週時事國語試題",
+      "totalWeeks": 3,
+      "totalQuestions": 35,
+      "sourceFiles": [
+        "115學年-1每週時事國語試題.pdf"
+      ],
+      "updatedAt": "2026-11-24T13:16:11+08:00",
+      "weeks": [
+        {
+          "weekNumber": 11,
+          "weekLabel": "第 11 週",
+          "title": "第七課〈跟著公共藝術去旅行〉",
+          "schedule": "第十一冊第參單元「生活好藝術」第七課〈跟著公共藝術去旅行〉（翰林版）",
+          "questionCount": 10
+        },
+        {
+          "weekNumber": 12,
+          "weekLabel": "第 12 週",
+          "title": "第八課〈街頭藝術家〉",
+          "schedule": "第十一冊第參單元「生活好藝術」第八課〈街頭藝術家〉（翰林版，作者：桂文亞）",
+          "questionCount": 10
+        },
+        {
+          "weekNumber": 13,
+          "weekLabel": "第 13 週",
+          "title": "第九課〈孫翠鳳和歌仔戲〉",
+          "schedule": "第十一冊第參單元「生活好藝術」第九課〈孫翠鳳和歌仔戲〉（翰林版）",
+          "questionCount": 15
+        }
+      ]
+    },
+    "math": {
+      "subject": "math",
+      "label": "數學",
+      "title": "115學年-1每週時事數學試題",
+      "totalWeeks": 4,
+      "totalQuestions": 49,
+      "sourceFiles": [
+        "115學年-1每週時事數學試題.docx"
+      ],
+      "updatedAt": "2026-11-24T13:16:11+08:00",
+      "weeks": [
+        {
+          "weekNumber": 11,
+          "weekLabel": "第 11 週",
+          "title": "認識圓周率（11/09～11/13）",
+          "schedule": "第六單元「圓周長與扇形周長」活動一：認識圓周率（期中評量週）",
+          "questionCount": 13
+        },
+        {
+          "weekNumber": 12,
+          "weekLabel": "第 12 週",
+          "title": "圓周長計算與生活應用（11/16～11/20）",
+          "schedule": "第六單元「圓周長與扇形周長」活動二：圓周長",
+          "questionCount": 13
+        },
+        {
+          "weekNumber": 13,
+          "weekLabel": "第 13 週",
+          "title": "扇形弧長與扇形周長（11/23～11/27）",
+          "schedule": "第六單元「圓周長與扇形周長」活動三：扇形周長",
+          "questionCount": 12
+        },
+        {
+          "weekNumber": 14,
+          "weekLabel": "第 14 週",
+          "title": "圓面積公式與複合圓面積（11/30～12/04）",
+          "schedule": "第七單元「圓面積與扇形面積」活動一：圓面積",
+          "questionCount": 11
+        }
+      ]
+    },
+    "social": {
+      "subject": "social",
+      "label": "社會",
+      "title": "115學年-1每週時事社會試題",
+      "totalWeeks": 3,
+      "totalQuestions": 35,
+      "sourceFiles": [
+        "115學年-1每週時事社會試題.docx"
+      ],
+      "updatedAt": "2026-11-24T13:16:11+08:00",
+      "weeks": [
+        {
+          "weekNumber": 11,
+          "weekLabel": "第 11 週",
+          "title": "戰後臺灣的經濟發展（土地改革與外銷導向）",
+          "schedule": "第三單元 戰後臺灣的經濟與城鄉發展 — 第 1 課 戰後臺灣的經濟發展（【活動 1】土地改革對農民與地主的影響、【活動 2】從自給自足到外銷導向）",
+          "questionCount": 10
+        },
+        {
+          "weekNumber": 12,
+          "weekLabel": "第 12 週",
+          "title": "十大建設、產業升級與高科技半導體全球供應鏈",
+          "schedule": "第三單元 戰後臺灣的經濟與城鄉發展 — 第 1 課 戰後臺灣的經濟發展（【活動 3】十大建設與產業升級、【活動 4】高科技產業與全球經貿）",
+          "questionCount": 10
+        },
+        {
+          "weekNumber": 13,
+          "weekLabel": "第 13 週",
+          "title": "臺灣的城鄉發展（都市化、TPASS生活圈與地方創生）",
+          "schedule": "第三單元 戰後臺灣的經濟與城鄉發展 — 第 2 課 臺灣的城鄉發展（【活動 1】都市的發展、產業與城鄉發展、【活動 2】交通與生活圈的關係、TPASS 與地方生活圈、【活動 3】經濟發展中的環境議題、城鄉發展的困境）",
+          "questionCount": 15
+        }
+      ]
+    }
+  }
+}

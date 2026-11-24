@@ -1,0 +1,108 @@
+/* ==========================================================================
+   115學年-1 課堂形成性評量 — 領域設計系統 Tokens
+   意象：講台上的精裝教具與溫潤考卷紙
+   ========================================================================== */
+
+:root {
+  /* 紙面層次 (Surfaces) */
+  --paper-canvas: #F8F5EE;
+  --paper-sheet: #FFFFFF;
+  --paper-recess: #F0ECE2;
+  --paper-veil: #F4EFE4;
+  --paper-highlight: #FDF6E3;
+  --paper-hover: #F5F1E8;
+
+  /* 四階墨色 (Ink Hierarchy) */
+  --ink-primary: #1A2129;
+  --ink-secondary: #3D4954;
+  --ink-tertiary: #616E7A;
+  --ink-muted: #8894A0;
+
+  /* 分隔線與紙張深度 (Hairlines & Layered Paper Elevation) */
+  --rule-hairline: rgba(26, 33, 41, 0.09);
+  --rule-soft: rgba(26, 33, 41, 0.055);
+  --rule-strong: rgba(26, 33, 41, 0.16);
+  --shadow-sheet:
+    0 0 0 1px rgba(26, 33, 41, 0.065),
+    0 1px 2px -1px rgba(26, 33, 41, 0.06),
+    0 6px 18px -6px rgba(26, 33, 41, 0.06);
+  --shadow-popover:
+    0 0 0 1px rgba(26, 33, 41, 0.08),
+    0 8px 24px -4px rgba(26, 33, 41, 0.12),
+    0 2px 6px rgba(26, 33, 41, 0.05);
+
+  /* 預設（總覽首頁）印章強調色 */
+  --subject-accent: #2D4A63;
+  --subject-accent-soft: #EEF3F7;
+  --subject-accent-border: rgba(45, 74, 99, 0.24);
+  --subject-ink-on-accent: #FFFFFF;
+
+  /* 三科識別印章色（單一強調色，節制運用） */
+  --seal-chinese: #B33A2E;
+  --seal-chinese-soft: #FBF1EF;
+  --seal-math: #225B96;
+  --seal-math-soft: #EFF5FB;
+  --seal-social: #1F6B59;
+  --seal-social-soft: #EEF7F4;
+
+  /* 課堂形成性評量語意色 */
+  --eval-correct: #1B6E4B;
+  --eval-correct-bg: #EAF6F0;
+  --eval-correct-border: rgba(27, 110, 75, 0.34);
+
+  --eval-elim: #B4372B;
+  --eval-elim-bg: #FCF0EE;
+  --eval-elim-border: rgba(180, 55, 43, 0.25);
+
+  --eval-focus: #9E6312;
+  --eval-focus-bg: #FDF4E0;
+  --eval-focus-border: rgba(158, 99, 18, 0.38);
+
+  /* 字體系統 */
+  --font-serif: "Noto Serif TC", "Songti TC", "PMingLiU", "Source Han Serif TC", Georgia, serif;
+  --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", ui-monospace, monospace;
+
+  /* 空間與圓角系統（4px 基準 × 同心圓角） */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-pill: 999px;
+
+  /* 投影字級縮放倍率（標準 1 / 大字 1.16 / 特大 1.32） */
+  --stage-scale: 1;
+
+  /* 動效曲線 */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+  --nav-height: 58px;
+}
+
+/* 依各科切換單一主題色 */
+body[data-subject="chinese"] {
+  --subject-accent: #B33A2E;
+  --subject-accent-soft: #FBF1EF;
+  --subject-accent-border: rgba(179, 58, 46, 0.26);
+}
+
+body[data-subject="math"] {
+  --subject-accent: #225B96;
+  --subject-accent-soft: #EFF5FB;
+  --subject-accent-border: rgba(34, 91, 150, 0.26);
+}
+
+body[data-subject="social"] {
+  --subject-accent: #1F6B59;
+  --subject-accent-soft: #EEF7F4;
+  --subject-accent-border: rgba(31, 107, 89, 0.26);
+}
+
+body[data-scale="lg"] {
+  --stage-scale: 1.16;
+}
+
+body[data-scale="xl"] {
+  --stage-scale: 1.3;
+}

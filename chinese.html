@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國語形成性評量｜115學年-1 課堂講台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/assessment.css">
+</head>
+<body data-subject="chinese">
+  <header class="podium-header">
+    <div class="podium-header-inner">
+      <div class="brand-group">
+        <a class="brand-link" href="index.html" title="返回總覽首頁">
+          <span class="brand-seal">國</span>
+          <span class="brand-title">形成性評量講台</span>
+        </a>
+        <nav class="subject-tabs" aria-label="科目分頁">
+          <a class="subject-tab" href="index.html"><span class="subject-dot subject-dot--home"></span>總覽</a>
+          <a class="subject-tab is-active" href="chinese.html"><span class="subject-dot subject-dot--chinese"></span>國語</a>
+          <a class="subject-tab" href="math.html"><span class="subject-dot subject-dot--math"></span>數學</a>
+          <a class="subject-tab" href="social.html"><span class="subject-dot subject-dot--social"></span>社會</a>
+        </nav>
+      </div>
+
+      <div class="header-controls">
+        <div class="segmented-control" role="group" aria-label="檢視模式">
+          <button type="button" class="segmented-btn is-active" data-mode-btn="podium">講台逐題</button>
+          <button type="button" class="segmented-btn" data-mode-btn="overview">試卷總覽</button>
+        </div>
+
+        <div class="segmented-control" role="group" aria-label="投影字級">
+          <button type="button" class="segmented-btn is-active" data-scale-choice="md" title="標準字級">標準</button>
+          <button type="button" class="segmented-btn" data-scale-choice="lg" title="投影大字">大字</button>
+          <button type="button" class="segmented-btn" data-scale-choice="xl" title="後排特大">特大</button>
+        </div>
+
+        <span class="timer-badge" id="headerTimerBadge" hidden>⏱ 01:00</span>
+
+        <div class="tool-anchor">
+          <button type="button" class="tool-btn" id="btnTimerTool" title="思考計時器 (T)">⏱ 計時</button>
+          <div class="popover-card" id="timerPopover" hidden>
+            <div class="popover-title">
+              <span>課堂思考計時器</span>
+              <button type="button" class="popover-close" data-close-popover aria-label="關閉">✕</button>
+            </div>
+            <div class="timer-display" id="timerDisplay">01:00</div>
+            <div class="preset-row">
+              <button type="button" class="preset-btn" data-timer-preset="30">30秒</button>
+              <button type="button" class="preset-btn" data-timer-preset="60">1分</button>
+              <button type="button" class="preset-btn" data-timer-preset="120">2分</button>
+              <button type="button" class="preset-btn" data-timer-preset="180">3分</button>
+            </div>
+            <div class="action-row">
+              <button type="button" class="tool-btn tool-btn--primary" id="timerStartBtn">開始倒數</button>
+              <button type="button" class="tool-btn" id="timerResetBtn">重設</button>
+              <button type="button" class="tool-btn" id="timerMuteBtn">鈴聲</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tool-anchor">
+          <button type="button" class="tool-btn" id="btnPickerTool" title="班級隨機抽號 (R)">🎲 抽號</button>
+          <div class="popover-card" id="pickerPopover" hidden>
+            <div class="popover-title">
+              <span>隨機抽號器</span>
+              <button type="button" class="popover-close" data-close-popover aria-label="關閉">✕</button>
+            </div>
+            <div class="picker-result">
+              <div class="picker-num" id="pickerNum">--</div>
+              <div class="picker-sub" id="pickerSub">已抽 0 位</div>
+            </div>
+            <div class="picker-settings">
+              <label for="pickerRosterInput">班級人數（1～N號）</label>
+              <input class="picker-input" type="number" id="pickerRosterInput" min="2" max="60" value="28">
+            </div>
+            <div class="action-row">
+              <button type="button" class="tool-btn tool-btn--primary" id="pickerDrawBtn">抽出一位</button>
+              <button type="button" class="tool-btn" id="pickerResetBtn">重洗</button>
+            </div>
+            <div class="picker-history" id="pickerHistory"></div>
+          </div>
+        </div>
+
+        <button type="button" class="tool-btn" id="btnDrawTool" title="板書畫筆標記 (B)">✏️ 畫筆</button>
+        <button type="button" class="tool-btn" id="btnFullscreen" title="全螢幕投影 (F)">⛶</button>
+        <button type="button" class="tool-btn" id="btnShortcutHelp" title="鍵盤快捷鍵 (?)">?</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="assessment-shell">
+    <div class="week-bar no-print">
+      <div class="week-selector-row" id="weekTabs" role="tablist" aria-label="選擇週次"></div>
+    </div>
+    <section class="week-meta-strip" id="weekMetaStrip"></section>
+    <nav class="question-rail no-print" id="questionRail" aria-label="題號跳轉"></nav>
+    <div id="stageContainer"></div>
+    <div id="metaNotesContainer" class="no-print"></div>
+  </main>
+
+  <footer class="site-footer">
+    <span>國語科形成性評量講台 · 按 <kbd>?</kbd> 查看全部課堂快捷鍵</span>
+    <span id="footerUpdatedAt"></span>
+  </footer>
+
+  <canvas class="draw-canvas" id="drawCanvas"></canvas>
+  <div class="draw-dock no-print" id="drawDock" hidden>
+    <button type="button" class="pen-swatch is-active" data-pen-color="#B33A2E" data-pen-width="3.5" title="朱紅批改筆"><span class="pen-swatch-dot" style="background:#B33A2E;"></span></button>
+    <button type="button" class="pen-swatch" data-pen-color="#225B96" data-pen-width="3.5" title="藍色板書筆"><span class="pen-swatch-dot" style="background:#225B96;"></span></button>
+    <button type="button" class="pen-swatch" data-pen-color="rgba(250, 204, 21, 0.45)" data-pen-width="18" title="螢光重點筆"><span class="pen-swatch-dot" style="background:#FACC15;"></span></button>
+    <button type="button" class="tool-btn" id="btnClearBoard">清除畫布</button>
+    <button type="button" class="tool-btn tool-btn--primary" id="btnCloseDraw">完成標記</button>
+  </div>
+
+  <div class="modal-backdrop" id="lightboxModal" hidden role="dialog" aria-modal="true" aria-label="配圖放大檢視">
+    <div class="lightbox-frame">
+      <div class="lightbox-bar">
+        <span class="lightbox-caption" id="lightboxCaption">試題配圖</span>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <button type="button" class="tool-btn is-active" data-lightbox-zoom="100">100%</button>
+          <button type="button" class="tool-btn" data-lightbox-zoom="150">150%</button>
+          <button type="button" class="tool-btn" data-lightbox-zoom="200">200%</button>
+          <button type="button" class="tool-btn" id="lightboxCloseBtn">關閉 (Esc)</button>
+        </div>
+      </div>
+      <div class="lightbox-stage">
+        <img id="lightboxImg" src="" alt="試題配圖">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="shortcutModal" hidden role="dialog" aria-modal="true" aria-label="鍵盤快捷鍵">
+    <div class="shortcut-dialog">
+      <div class="popover-title">
+        <span>課堂講台鍵盤快捷鍵</span>
+        <button type="button" class="popover-close" id="shortcutCloseBtn" aria-label="關閉">✕</button>
+      </div>
+      <div class="shortcut-grid">
+        <div class="shortcut-item"><span>上一題 / 下一題</span><span><kbd>←</kbd> <kbd>→</kbd></span></div>
+        <div class="shortcut-item"><span>分層揭曉答案 / 下一步</span><kbd>Space</kbd></div>
+        <div class="shortcut-item"><span>展開或隱藏詳細解析</span><kbd>E</kbd></div>
+        <div class="shortcut-item"><span>標記選項 A–D 或 ○/✕</span><span><kbd>1</kbd>–<kbd>4</kbd></span></div>
+        <div class="shortcut-item"><span>思考計時器</span><kbd>T</kbd></div>
+        <div class="shortcut-item"><span>班級隨機抽號</span><kbd>R</kbd></div>
+        <div class="shortcut-item"><span>開啟／關閉板書畫筆</span><kbd>B</kbd></div>
+        <div class="shortcut-item"><span>全螢幕投影</span><kbd>F</kbd></div>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="js/format.js"></script>
+  <script src="js/tools.js"></script>
+  <script src="js/subject-page.js"></script>
+</body>
+</html>

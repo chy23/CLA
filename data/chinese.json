@@ -1,0 +1,1496 @@
+{
+  "subject": "chinese",
+  "subjectLabel": "國語",
+  "title": "115學年-1每週時事國語試題",
+  "subtitle": "",
+  "sourceFiles": [
+    "115學年-1每週時事國語試題.pdf"
+  ],
+  "updatedAt": "2026-11-24T13:16:11+08:00",
+  "metaNotes": [],
+  "weeks": [
+    {
+      "weekNumber": 11,
+      "weekLabel": "第 11 週",
+      "title": "第七課〈跟著公共藝術去旅行〉",
+      "schedule": "第十一冊第參單元「生活好藝術」第七課〈跟著公共藝術去旅行〉（翰林版）",
+      "goals": "108課綱素養導向評量（字詞辨析、句型修辭、文本推論、跨領域法規生活試算、圖表數位導覽解讀、真實生活策展提案與觀點思辨）",
+      "sections": [
+        {
+          "id": "w11_sec1",
+          "label": "壹",
+          "title": "單選題與解答",
+          "scoreInfo": "每題 6 分，共 36 分",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w11_sec2",
+          "label": "貳",
+          "title": "應用與情境題",
+          "scoreInfo": "共 4 題，共 64 分",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [
+        {
+          "id": "w11_ctx1",
+          "sectionId": "w11_sec1",
+          "title": "【情境一：捷運新線公共藝術巡禮】",
+          "intro": "為了迎接即將全線通車的新型大眾捷運系統，捷運工程局特別在沿線車站規劃「移動的美術館」公共藝術展，並發行了導覽手冊。請閱讀後回答第 1～3 題：",
+          "excerptTitle": "捷運導覽摺頁節錄：",
+          "excerpt": "「漫步在嶄新的車站大廳，穿過冷冽晨風的旅客，目光總會被中央一座以不鏽鋼鍛造、散發柔和光澤的巨型雕塑吸引。這件作品取名為《時空之印》，基座巧妙拓印了在地早期蕨類化石的紋理；另一側綠意盎然的戶外廣場上，花團錦簇之中佇立著幾隻神態自若的青銅梅花鹿，彷彿向來往行人眨眨眼。策展人表示，公共藝術的價值一方面在於活化冰冷的鋼筋水泥空間，另一方面更能喚起市民對土地歷史更迭的深層記憶。」",
+          "figures": []
+        },
+        {
+          "id": "w11_ctx2",
+          "sectionId": "w11_sec1",
+          "title": "【情境二：跨領域公共藝術法規與公共生活】",
+          "intro": "請閱讀以下取自《文化藝術獎助及促進條例》與當前公共政策報導的整理摘要，回答第 4～6題：",
+          "excerptTitle": "資訊閱讀站：生活中的 1% 魔法",
+          "excerpt": "依據我國《文化藝術獎助及促進條例》第 15 條規定：「公有建築物應設置公共藝術，美化環境，其價值不得少於該建築物造價百分之一。」這意味著不管是新建的市立圖書館、公立學校活動中心，還是高鐵與捷運站體，都必須將藝術融入民眾日常行走的動線中。然而，近年多座城市的公共藝術作品引發了熱烈討論：有民眾反映部分作品「只可遠觀不可褻玩」，缺乏互動性；也有地方團體指出部分設置廠商僅採購現成量產雕塑，失去與在地人文特色的連結。文化部為此修訂辦法，要求未來的公共藝術設置小組必須納入在地居民代表與藝術專業人士，加強民眾參與機制。",
+          "figures": []
+        },
+        {
+          "id": "w11_ctx3",
+          "sectionId": "w11_sec2",
+          "title": "【情境三：探訪園區中的《大地之書》】",
+          "intro": "學校六年級舉辦戶外教育踏查，小組來到市立藝文園區進行「公共藝術尋寶踏查活動」。現場有一件與課文介紹的《大地之書》相仿的戶外複合媒材裝置藝術，如下圖所示：",
+          "excerptTitle": "",
+          "excerpt": "",
+          "figures": [
+            {
+              "id": "w11_fig1",
+              "caption": "情境三：探訪園區中的《大地之書》",
+              "src": "assets/images/chinese/w11_fig1.jpg",
+              "driveUrl": "",
+              "sourceNote": ""
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "chinese_w11_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sectionId": "w11_sec1",
+          "contextId": "w11_ctx1",
+          "type": "choice",
+          "points": 6,
+          "tag": "字音與字形辨析",
+          "prompt": "小華閱讀導覽摺頁時標記了四個語詞，請選出字音或字形完全正確的選項：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "冷「冽」：音同「例」，形容寒冷刺骨"
+            },
+            {
+              "key": "B",
+              "text": "「拓」印：音同「踏」，指將石刻或木雕上的文字圖形印在紙上"
+            },
+            {
+              "key": "C",
+              "text": "花團錦「簇」：音同「族」，形容五彩繽紛、繁華盛開的景象"
+            },
+            {
+              "key": "D",
+              "text": "「佇」立：音同「主」，表示長時間站立著"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "(A) 冷「冽」音ㄌㄧㄝˋ；(C) 花團錦「簇」音ㄘㄨˋ；(D) 「佇」立音ㄓㄨˋ。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sectionId": "w11_sec1",
+          "contextId": "w11_ctx1",
+          "type": "choice",
+          "points": 6,
+          "tag": "語境詞義置換",
+          "prompt": "摺頁中提到「公共藝術喚起市民對土地歷史『更迭』的深層記憶」，若要替換句中的「更迭」一詞，且文意保持最通順適切，下列何者最適當？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "翻轉"
+            },
+            {
+              "key": "B",
+              "text": "輪替"
+            },
+            {
+              "key": "C",
+              "text": "遷徙"
+            },
+            {
+              "key": "D",
+              "text": "停滯"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "「更迭」意為輪替、交替變換。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q3",
+          "number": 3,
+          "displayNumber": "3",
+          "sectionId": "w11_sec1",
+          "contextId": "w11_ctx1",
+          "type": "choice",
+          "points": 6,
+          "tag": "句型與語意關係",
+          "prompt": "文末提及：「公共藝術的價值一方面在於活化冰冷的鋼筋水泥空間，另一方面更能喚起市民對土地歷史更迭的深層記憶。」這句話在邏輯句型上屬於下列何者？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "轉折複句（後句意思轉變）"
+            },
+            {
+              "key": "B",
+              "text": "遞進複句（後句程度較前句更深）"
+            },
+            {
+              "key": "C",
+              "text": "並列複句（平列說明兩項同等重要的價值）"
+            },
+            {
+              "key": "D",
+              "text": "假設複句（假設前句條件成立才產生後句結果）"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [],
+          "explanation": "「一方面……另一方面……」為並列複句。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q4",
+          "number": 4,
+          "displayNumber": "4",
+          "sectionId": "w11_sec1",
+          "contextId": "w11_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "文本推論與理解",
+          "prompt": "根據上文與課文〈跟著公共藝術去旅行〉的敘述，下列哪一項最符合臺灣設置「公共藝術」的核心精神？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "公共藝術必須擺放在戒備森嚴的美術館內，以維持藝術品的崇高與神聖"
+            },
+            {
+              "key": "B",
+              "text": "公共藝術必須以追求最高商業價值為原則，隨時可拍賣轉售以充實政府財政"
+            },
+            {
+              "key": "C",
+              "text": "公共藝術應走出展覽殿堂，融入大眾生活環境，並凝聚在地的情感與記憶"
+            },
+            {
+              "key": "D",
+              "text": "公共藝術的設置經費越多越好，不須受到任何工程造價百分比的法規限制"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [],
+          "explanation": "公共藝術走出展覽殿堂，融入大眾生活環境。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q5",
+          "number": 5,
+          "displayNumber": "5",
+          "sectionId": "w11_sec1",
+          "contextId": "w11_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "素養生活應用：預算試算",
+          "prompt": "某市政府斥資新臺幣 8 億元興建全新的市立兒童科學圖書館。依據法定「不得少於建築物造價 1%」的規定，該工程至少應編列多少公共藝術設置經費？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "80 萬元"
+            },
+            {
+              "key": "B",
+              "text": "800 萬元"
+            },
+            {
+              "key": "C",
+              "text": "8,000 萬元"
+            },
+            {
+              "key": "D",
+              "text": "8 億元"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "8億元 × 1% = 800萬元。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q6",
+          "number": 6,
+          "displayNumber": "6",
+          "sectionId": "w11_sec1",
+          "contextId": "w11_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "批判思考與公共議題判讀",
+          "prompt": "某社區活動中心落成時，設置了一座名為《童年記憶》的青銅溜滑梯公共藝術。啟用半年後，管理委員會因擔心孩童攀爬造成銅雕磨損與安全疑慮，在作品周圍架設紅色塑膠警示帶與「嚴禁攀爬觸碰」告示牌。依據課文〈跟著公共藝術去旅行〉作者與公共藝術互動的觀點，下列評述何者最中肯？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "設置封鎖線非常正確，因為公共藝術的唯一功能是給人拍照打卡，絕不能磨損"
+            },
+            {
+              "key": "B",
+              "text": "管委會的做法忽略了公共藝術注重「與人互動、融入日常」的特質，應尋求兼顧安全與親近的維護方案"
+            },
+            {
+              "key": "C",
+              "text": "既然民眾會觸摸，政府一開始就應該直接取消所有公共工程的公共藝術法定義務"
+            },
+            {
+              "key": "D",
+              "text": "只要藝術品塗上不鏽鋼保護漆，就可以放任不管，不需考慮保養與安全問題"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "管委會忽略公共藝術「與人互動」特質，應尋求兼顧安全與親近的方案。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q7",
+          "number": 7,
+          "displayNumber": "7",
+          "sectionId": "w11_sec2",
+          "contextId": "w11_ctx3",
+          "type": "applied",
+          "points": 14,
+          "tag": "圖表與現場導覽解讀",
+          "prompt": "請仔細觀察圖中的作品造型、觀眾互動以及解說牌設計，回答下列問題：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "請觀察該件公共藝術的造形特色，它巧妙結合了哪兩種象徵物件？創作者可能想藉此傳達什麼樣的自然或人文意涵？（8 分）",
+              "points": 8
+            },
+            {
+              "label": "(2)",
+              "text": "解說牌右下方附有 QR Code 與「掃描了解更多」字樣。如果從數位導覽與推廣公共藝術的角度來看，這項設計能提供現場參觀者哪些傳統靜態文字牌無法達到的好處？（至少寫出兩點）（6 分）",
+              "points": 6
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 書籍象徵智慧與閱讀，蕨類象徵大自然與旺盛生命力，兩者結合象徵向大地學習；\n(2) QR Code 可提供影音多媒體導覽、外語及手語無障礙服務、互動體驗。",
+          "steps": [],
+          "explanation": "",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w11_q8",
+          "number": 8,
+          "displayNumber": "8",
+          "sectionId": "w11_sec2",
+          "contextId": "w11_ctx3",
+          "type": "applied",
+          "points": 14,
+          "tag": "修辭與語文運用實作",
+          "prompt": "課文中作者運用了豐富的摹寫與修辭手法，描寫公共藝術帶來的視覺感受與生命力。請你運用本課所學的兩種修辭手法（譬喻、擬人、設問、類疊中任選兩種），為圖中的公共藝術作品寫下一段約 60～80 字的導覽語音廣播文案，吸引路過的民眾停下腳步欣賞。(作答時請在括號內註明你所使用的兩種修辭名稱)",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "範例：「（擬人、譬喻）這座靜靜佇立的《大地之書》，正悄悄向過往的旅人眨眨眼呢！那一葉葉翠綠的蕨類，如同破土而出的希望音符，正在石板廣場上彈奏著大自然的綠色交響樂。快放慢腳步，翻閱這本永遠讀不倦的大地之歌吧！」",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "4分",
+              "text": "準確標註並使用兩種修辭"
+            },
+            {
+              "score": "6分",
+              "text": "文句流暢生動切合情境"
+            },
+            {
+              "score": "4分",
+              "text": "字數符合60～80字且無錯別字"
+            }
+          ]
+        },
+        {
+          "id": "chinese_w11_q9",
+          "number": 9,
+          "displayNumber": "9",
+          "sectionId": "w11_sec2",
+          "contextId": null,
+          "type": "applied",
+          "points": 18,
+          "tag": "公共藝術企劃提案——「我們校園的 1% 亮點」",
+          "prompt": "你所就讀的學校即將新建一棟「永續多元學習大樓」，學校召開「校園公共藝術公民提案大會」，徵求高年級學生的創意發想。請你代表班級撰寫一份簡要的提案構想：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [
+            "作品暫定名稱：（2 分）",
+            "預計設置地點（如：穿堂、中庭花園、圖書館入口等）：（2 分）",
+            "主要選用材質（請參考課本提到的青銅、不鏽鋼、石雕、木材或環保綠建材）：（2分）",
+            "設計理念說明：請具體說明作品造形、想要呈現的學校精神或在地文化特色，並請在說明中務必包含一組並列複句「一方面……另一方面……」。（80～120 字）（12分）"
+          ],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "名稱：《乘風飛翔的知識之翼》；地點：圖書館前中庭草坪；材質：不鏽鋼鏡面烤漆與樟木基座。\n理念範例：這座雕塑造形取自校園常見的白頭翁與翻開的百科全書。本作品一方面能美化校園中庭的硬質步道景觀，另一方面更能激勵每位同學勇於迎向風浪、展翅翱翔。",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "",
+              "text": "完整填寫各項提案資訊，理念說明切合主題且正確運用並列複句「一方面……另一方面……」"
+            }
+          ]
+        },
+        {
+          "id": "chinese_w11_q10",
+          "number": 10,
+          "displayNumber": "10",
+          "sectionId": "w11_sec2",
+          "contextId": null,
+          "type": "applied",
+          "points": 18,
+          "tag": "生活議題思辨與問題解決",
+          "prompt": "在真實生活中，戶外公共藝術常面臨「日曬雨淋、自然氧化，或是人為觸摸塗鴉」的維護困境。有些城市選擇「定期將雕塑重新打磨拋光、塗上厚厚的防護漆」，也有藝術家認為「歲月留下的青銅銅綠與常民觸碰產生的溫潤光澤，才是作品與時間對話的證明」。\n請閱讀以下兩種立場，寫出你的觀點：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [
+            {
+              "label": "立場甲（物業管理導向）",
+              "text": "公共藝術花費公帑設置，必須維持出廠時的嶄新外觀，應設置防護柵欄禁止觸摸，以降低修繕成本。"
+            },
+            {
+              "label": "立場乙（開放參與導向）",
+              "text": "公共藝術本屬於公眾，若因害怕損耗而隔離人群，便失去了公共藝術融入生活的初衷。"
+            }
+          ],
+          "stancePrompt": "請回答：\n你比較支持哪一種立場？或者你有折衷的解決策略？請結合**「藝術品保存」**與**「民眾親近互動」**兩個層面，具體提出你的理由以及一項切實可行的管理/教育方案（例如：認養制度、材質選擇、解說體驗設計等）。（字數約 120～150 字）",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "範例：支持開放參與的折衷策略。建議採行「社區/學生認養與導覽教育」：設置溫馨提示說明正確觸摸方式，並由志工團隊定期為銅雕上保養蠟，既讓大家親近藝術又培養愛護公物素養。",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "10分",
+              "text": "立場明確且兼顧保存與互動兩面向"
+            },
+            {
+              "score": "6分",
+              "text": "提出具體可行之解決或教育策略"
+            },
+            {
+              "score": "2分",
+              "text": "邏輯通順用詞得體"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 12,
+      "weekLabel": "第 12 週",
+      "title": "第八課〈街頭藝術家〉",
+      "schedule": "第十一冊第參單元「生活好藝術」第八課〈街頭藝術家〉（翰林版，作者：桂文亞）",
+      "goals": "108課綱素養導向評量（字音字形辨析、成語語境、標點特殊意涵、條件複句、街頭藝人登記制與分貝管理跨領域生活閱讀、圖表觀察解讀、動靜摹寫實作、校園才藝角公共規範提案與多元觀點思辨）",
+      "sections": [
+        {
+          "id": "w12_sec1",
+          "label": "壹",
+          "title": "單選題與解答",
+          "scoreInfo": "每題 6 分，共 36 分",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w12_sec2",
+          "label": "貳",
+          "title": "情境應用題與評分規準",
+          "scoreInfo": "共 4 題，共 64 分",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [
+        {
+          "id": "w12_ctx1",
+          "sectionId": "w12_sec1",
+          "title": "【情境一：城市步道上的藝術驚喜】",
+          "intro": "近年臺灣多個縣市將文化活動延伸至徒步區與老街商圈，文化局特別印製「街頭藝人生活指南」，推廣隨處可見的庶民美學。請閱讀下列短文後回答第 1～3 題：",
+          "excerptTitle": "文化局宣導文宣節錄：",
+          "excerpt": "「漫步在假日行人徒步區，微風徐徐。街角一個長圓形的石墩上，站著一位全身塗滿銀漆、化身為卓別林的默劇藝人。只要有路人投幣或駐足，他便會打破宛如雕像的靜止，眨眼微笑並使出渾身解數做出滑稽動作，引來陣陣掌聲。然而，並非所有表演都能贏得喝采；若遇到不講究場合、在狹窄通道擴音合唱而造成嘈雜干擾者，路過民眾多半選擇『按兵不動』快速通過，表演者也只能知趣的更換展演位置。如何讓街頭藝術既展現活力，又維持令人稱羨的悠閒環境，考驗著城市公眾的智慧。」",
+          "figures": []
+        },
+        {
+          "id": "w12_ctx2",
+          "sectionId": "w12_sec1",
+          "title": "【情境二：跨領域公共治理——街頭藝人的登記與共好】",
+          "intro": "請閱讀以下取自市政文化法規與時事報導的整理，回答第 4～6 題：",
+          "excerptTitle": "時事焦點：從「考照審查」到「登記抽籤」",
+          "excerpt": "過去臺灣街頭藝人須經專家委員嚴格審查評分才能取得執照。近年各縣市為落實憲法保障工作權與文化平權，紛紛改採「登記制」——只要年滿規定年齡並完成線上研習即可取得資格。然而登記門檻降低後，全臺街頭藝人人數激增，帶來了全新挑戰：熱門觀光景點（如淡水金色水岸、信義香堤廣場、審計新村）一位難求，甚至衍生代排與抽籤爭議；此外，多組音響擴音演出互相干擾，分貝過高引發周邊居民抗議。文化局因此推出「展演公約」：如果表演音量超過現場管制標準經勸導三次不改，主管機關就暫停其場地登記申請資格一個月。文化學者指出，街頭藝術的珍貴在於打破劇院圍牆，但公德心與場地自律才是這道風景長存的關鍵。",
+          "figures": []
+        },
+        {
+          "id": "w12_ctx3",
+          "sectionId": "w12_sec2",
+          "title": "【情境三：街角直擊——默劇大師的演出現場】",
+          "intro": "週日午後，林口新市鎮的文化徒步商圈人潮絡繹不絕。一位裝扮成卓別林的默劇藝術家在廣場石墩上開展表演，現場情境如下圖所示：",
+          "excerptTitle": "",
+          "excerpt": "",
+          "figures": [
+            {
+              "id": "w12_fig1",
+              "caption": "情境三：街角直擊——默劇大師的演出現場",
+              "src": "assets/images/chinese/w12_fig1.jpg",
+              "driveUrl": "",
+              "sourceNote": ""
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "chinese_w12_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sectionId": "w12_sec1",
+          "contextId": "w12_ctx1",
+          "type": "choice",
+          "points": 6,
+          "tag": "字音與字形辨析",
+          "prompt": "小明在閱讀文宣時整理了生字注音，請選出字音完全正確的選項：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "長圓形石「墩」：音同「頂」，指做為基座的石塊"
+            },
+            {
+              "key": "B",
+              "text": "使出渾身「解」數：音同「謝」，指本領、手段"
+            },
+            {
+              "key": "C",
+              "text": "聲音「嘈」雜：音同「朝」，形容雜亂喧鬧"
+            },
+            {
+              "key": "D",
+              "text": "令人「稱」羨：音同「趁」，表示稱讚與羨慕"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "(A) 石「墩」音ㄉㄨㄣ；(B) 使出渾身「解」數音ㄒㄧㄝˋ，解數指武術架式或技藝手段；(C) 「嘈」雜音ㄘㄠˊ；(D) 「稱」羨音ㄔㄥ。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sectionId": "w12_sec1",
+          "contextId": "w12_ctx1",
+          "type": "choice",
+          "points": 6,
+          "tag": "成語與語境理解",
+          "prompt": "文中提到「路過民眾多半選擇『按兵不動』快速通過」，句中「按兵不動」在此情境中最貼切的意涵為何？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "警方攜帶武器在現場嚴密防備"
+            },
+            {
+              "key": "B",
+              "text": "行人保持冷靜、不給予打賞或停下鼓掌"
+            },
+            {
+              "key": "C",
+              "text": "街頭藝人停止所有肢體表演"
+            },
+            {
+              "key": "D",
+              "text": "商家彼此約定暫時不開店營業"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "課文與情境中「按兵不動」借用軍事成語，轉指觀眾不掏錢投幣、不熱烈回應或暫不採取動作的觀望態度。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q3",
+          "number": 3,
+          "displayNumber": "3",
+          "sectionId": "w12_sec1",
+          "contextId": "w12_ctx1",
+          "type": "choice",
+          "points": 6,
+          "tag": "標點符號與語氣意涵",
+          "prompt": "課文與文宣中將街頭藝術家形容為「機器人」，以及將不掏錢的觀眾形容為「按兵不動」，這兩處引號的主要作用是什麼？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "引用古代名人所說的原始語錄"
+            },
+            {
+              "key": "B",
+              "text": "表示反諷與強烈否定的語氣"
+            },
+            {
+              "key": "C",
+              "text": "標示特定借喻或賦予詞語特殊轉義"
+            },
+            {
+              "key": "D",
+              "text": "表示說話未完、語意保留的中斷"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [],
+          "explanation": "此處引號並非引用名言或反諷，而是作者以生動形象的借喻手法，賦予常見詞彙特殊的修辭情境意涵。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q4",
+          "number": 4,
+          "displayNumber": "4",
+          "sectionId": "w12_sec1",
+          "contextId": "w12_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "句型與邏輯關係",
+          "prompt": "展演公約規定：「如果表演音量超過現場管制標準經勸導三次不改，主管機關就暫停其場地登記申請資格一個月。」這句話在語法上屬於下列何種複句？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "轉折複句"
+            },
+            {
+              "key": "B",
+              "text": "並列複句"
+            },
+            {
+              "key": "C",
+              "text": "條件／假設複句"
+            },
+            {
+              "key": "D",
+              "text": "因果複句"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [],
+          "explanation": "「如果……就……」為標準的條件（假設）複句，先設定前置條件，再導出相應的結果。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q5",
+          "number": 5,
+          "displayNumber": "5",
+          "sectionId": "w12_sec1",
+          "contextId": "w12_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "訊息推論與跨領域生活理解",
+          "prompt": "根據上文說明，街頭藝人制度從「審查制」改為「登記制」，最主要體現了現代公民社會的何種精神？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "政府全面放棄管理公共空間，放任商業自由競爭"
+            },
+            {
+              "key": "B",
+              "text": "降低藝術參與門檻，實踐文化平權與尊重表演自由"
+            },
+            {
+              "key": "C",
+              "text": "鼓勵街頭藝人只能在室內劇院售票演出"
+            },
+            {
+              "key": "D",
+              "text": "限制街頭藝術表演，確保所有城市街道完全靜音"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "改採登記制是為了保障憲法工作權與文化平權，使藝術不再由少數審查委員壟斷，讓更多熱愛表演者能走入街頭。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q6",
+          "number": 6,
+          "displayNumber": "6",
+          "sectionId": "w12_sec1",
+          "contextId": "w12_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "批判思考與篇章深究",
+          "prompt": "課文作者桂文亞在瑞士伯恩欣賞到高水準的服飾店門口弦樂四重奏，因而感嘆：「愛音樂的人，不一定非得穿得正正式式，規規矩矩坐在劇院裡才能欣賞。」這句話帶給我們最大的生活省思是什麼？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "傳統劇院的表演毫無價值，應該全數拆除"
+            },
+            {
+              "key": "B",
+              "text": "藝術不必高不可攀，它能自然融入生活動線，撫慰大眾心靈"
+            },
+            {
+              "key": "C",
+              "text": "只要是在街頭表演，技術水準絕對比劇院樂團更高超"
+            },
+            {
+              "key": "D",
+              "text": "欣賞音樂時隨意大聲說話走動才是最高水準的表現"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "作者肯定街頭藝術將高雅音樂普及化、日常化，讓市民不用正裝進劇院就能感受美感薰陶，體現藝術即生活的精神。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q7",
+          "number": 7,
+          "displayNumber": "7",
+          "sectionId": "w12_sec2",
+          "contextId": "w12_ctx3",
+          "type": "applied",
+          "points": 14,
+          "tag": "圖表與現場細節觀察",
+          "prompt": "請仔細觀察圖中的街頭藝人裝扮、道具以及觀眾互動，回答下列問題：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "圖中街頭藝人的外觀造形（如圓頂禮帽、西裝手杖、石墩站姿）是在模仿哪一種經典風格？他以靜止如雕像的方式演出，能吸引路人何種心理反應？（8 分）",
+              "points": 8
+            },
+            {
+              "label": "(2)",
+              "text": "請注意藝人前方的手提箱，上面標示有「電子打賞 QR Code」與「分貝限制」標章。這兩項現代道具反映出街頭藝術在「科技應用」與「公眾秩序」上的哪些生活轉變？（6 分）",
+              "points": 6
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 模仿默劇大師卓別林經典造形與「活雕像（Living Statue）」表演型態。利用「似動非動、宛如假人」的視覺懸疑，激發行人的好奇心，吸引觀眾駐足觀察並期待其突然的互動反應。（8分）\n(2) ① 科技應用：順應無現金社會潮流，讓觀眾利用手機行動支付隨喜打賞，支持藝術創作；② 公眾秩序：配合商圈噪音管制標準，自我約束擴音分貝，落實與在地居民、店家和諧共處的公德規範。（6分）",
+          "steps": [],
+          "explanation": "",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w12_q8",
+          "number": 8,
+          "displayNumber": "8",
+          "sectionId": "w12_sec2",
+          "contextId": "w12_ctx3",
+          "type": "applied",
+          "points": 14,
+          "tag": "語文修辭與動靜摹寫實作",
+          "prompt": "課文中生動刻畫了街頭藝術家「從靜止到動作」的精彩瞬間。請你運用本課所學的兩種修辭手法（譬喻、擬人、動態摹寫、映襯中任選兩種），描寫圖中街頭藝人「原本如雕像般凝固，在小朋友投幣／掃碼後瞬間靈動互動」的過程。（字數約 60～80 字，並於括號內註明修辭名稱）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "範例：「（擬人、動態摹寫）原本宛如石雕般凝固的身軀，在聽見清脆的聲響後瞬間甦醒。他頑皮地向孩子脫帽致意，手杖在指尖如精靈般旋轉飛舞，逗得圍觀人潮爆發出燦爛的笑聲。」",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "4分",
+              "text": "準確標註並靈活運用兩種修辭"
+            },
+            {
+              "score": "6分",
+              "text": "鮮明呈現「靜止」到「生動互動」的動態層次"
+            },
+            {
+              "score": "4分",
+              "text": "字數符合 60～80 字且語句流暢、無錯別字"
+            }
+          ]
+        },
+        {
+          "id": "chinese_w12_q9",
+          "number": 9,
+          "displayNumber": "9",
+          "sectionId": "w12_sec2",
+          "contextId": null,
+          "type": "applied",
+          "points": 18,
+          "tag": "校園公共治理提案——「午間草地才藝角」",
+          "prompt": "學校自治會計畫在每週五中午於中庭草坪試辦「校園街頭才藝角」，讓有音樂、魔術、扯鈴或戲劇專長的同學自由展演。為了避免影響午休安寧並維護場地整潔，請你代表六年級自治幹部擬定一份簡要的「展演自律公約」：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [
+            "活動名稱：（2 分）",
+            "展演類別與場地：（2 分）",
+            "音量與動線管制標準：（2 分）",
+            "公約理念說明：說明設立本才藝角的目的，並在文案中務必包含一組條件複句「如果……就……」或轉折複句「雖然……但……」。（80～120 字）（12 分）"
+          ],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "參考範例：\n- 活動名稱：活力午休·草地星光才藝角\n- 展演類別與場地：木吉他自彈自唱、魔術與扯鈴技藝；圖書館前圓形林蔭草坪。\n- 音量與動線管制標準：全面採用不插電或微型擴音（音量低於65分貝），觀眾留設兩公尺行人安全通行道。\n- 理念說明：我們希望提供全校同學展現多元才華的舞臺，讓藝術氣息洋溢在校園每個角落。雖然演出空間是完全開放的，但每位表演者與觀眾都必須嚴守輕聲交談的自律公約，共同維護乾淨舒適的校園生活環境。",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "6分",
+              "text": "各欄位填寫完整合宜"
+            },
+            {
+              "score": "6分",
+              "text": "理念說明切合主題且邏輯清晰"
+            },
+            {
+              "score": "6分",
+              "text": "正確運用指定複句且無錯別字"
+            }
+          ]
+        },
+        {
+          "id": "chinese_w12_q10",
+          "number": 10,
+          "displayNumber": "10",
+          "sectionId": "w12_sec2",
+          "contextId": null,
+          "type": "applied",
+          "points": 18,
+          "tag": "生活議題思辨與公共價值評析",
+          "prompt": "近年全臺許多觀光景點常出現街頭藝人「搶佔熱門點位」、「擴音音響彼此較勁干擾」、「觀眾圍觀堵塞輪椅與娃娃車通道」等爭議。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [
+            {
+              "label": "立場甲（完全自由派）",
+              "text": "街頭本來就是熱鬧的公共場域，政府不應設限過多規則，應由市場人潮自然淘汰不良表演者。"
+            },
+            {
+              "label": "立場乙（嚴格管制派）",
+              "text": "街頭首要功能是行人通行與居民生活安寧，應劃定封閉表演專區，限制表演時段與最高分貝，違者立即開罰驅離。"
+            }
+          ],
+          "stancePrompt": "請回答：\n你認為哪一種立場較能兼顧城市生活品質與藝文活力？或者你有一套更周全的折衷方案？請結合「表演者展演權益」與「行人／居民生活品質」兩大面向，具體陳述你的理由，並提出一項切實可行的管理創意（例如：分流分段制、低噪音展演區、無噪音耳機音樂會、公民自治評鑑等）。（字數約 120～150 字）",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "參考範例：\n我支持採取「分區分時的智慧友善管理」折衷方案。完全放任會造成噪音公害與交通癱瘓，而全面嚴格驅離則會扼殺城市的文化生機。我建議將商圈劃分為「動態音響區」與「靜態不插電區」，前者設置自動分貝警示監測儀，超標即亮紅燈自律；後者則鼓勵默劇、木吉他或人像素描等輕柔藝術。此外可引進「無噪音耳機街頭音樂會」，讓喜愛的觀眾戴耳機欣賞，既保護路人寧靜權，又能讓街頭藝術家盡情發光。",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "8分",
+              "text": "立場鮮明且論述周延，兼顧展演者與居民行人兩方需求"
+            },
+            {
+              "score": "6分",
+              "text": "提出具體且具可行性或創意的配套機制"
+            },
+            {
+              "score": "4分",
+              "text": "結構完整、邏輯嚴謹、文字流暢無錯別字"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 13,
+      "weekLabel": "第 13 週",
+      "title": "第九課〈孫翠鳳和歌仔戲〉",
+      "schedule": "第十一冊第參單元「生活好藝術」第九課〈孫翠鳳和歌仔戲〉（翰林版）",
+      "goals": "108課綱素養導向評量（字音字形與成語語境辨析、人物專訪文本推論、遞進／轉折複句運用、歌仔戲文化外交與當代展演時事判讀、圖表觀察解讀、動靜身段摹寫實作、傳統戲曲推廣企劃與跨世代傳承思辨）",
+      "sections": [
+        {
+          "id": "w13_sec1",
+          "label": "壹",
+          "title": "是非題",
+          "scoreInfo": "每題 4 分，共 20 分",
+          "defaultType": "true_false"
+        },
+        {
+          "id": "w13_sec2",
+          "label": "貳",
+          "title": "單選題",
+          "scoreInfo": "每題 6 分，共 36 分",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w13_sec3",
+          "label": "參",
+          "title": "情境應用題與評分規準",
+          "scoreInfo": "共 4 題，共 44 分",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [
+        {
+          "id": "w13_ctx1",
+          "sectionId": "w13_sec1",
+          "title": "【情境一：從「台北媳婦」到「無敵小生」】",
+          "intro": "學校配合本土文化週舉辦「臺灣戲曲風華展」，展場牆面介紹了明華園戲劇總團當家台柱孫翠鳳的奮鬥歷程。請閱讀以下展板摘錄與時事資訊，判斷第 1～5 題的敘述是否正確（正確打○，錯誤打 ×）：",
+          "excerptTitle": "展板摘錄：",
+          "excerpt": "孫翠鳳婚前在臺北擔任上班族，連臺語都說得零零落落。26 歲才因緣際會進入明華園學戲，面對同業多半自幼練功的環境，她不挑角色，從跑龍套、演小動物與小角色做起，咬牙苦練臺語發音、身段與武打動作，身上常留下傷痕「紀念品」。後來她克服了粗啞嗓音的限制，將劣勢轉化為反串小生的豪邁特色，成為允文允武的當家台柱。\n2026 年 10 月，孫翠鳳代表明華園獲頒第 6 屆「蔡萬才台灣貢獻獎」，回顧 1990 年代起帶著臺語歌仔戲出國演出曾被笑稱「瘋子」，如今卻已成功走遍全球 80 餘座城市進行文化外交（資料來源：自由時報藝文網）。",
+          "figures": []
+        },
+        {
+          "id": "w13_ctx2",
+          "sectionId": "w13_sec2",
+          "title": "【情境二：2026 歌仔戲旗艦展演與親子世代傳承】",
+          "intro": "為了讓傳統戲曲走進當代生活，國立傳統藝術中心與民間團體在 2026 年推出了多項創新展演。請閱讀以下新聞摘要，回答第 6～11 題：",
+          "excerptTitle": "藝文快訊：百年歌仔戲的當代新風貌",
+          "excerpt": "國立傳統藝術中心於 2026 年 11 月在臺灣戲曲中心推出「歌仔戲旗艦展演」，由兩大知名劇團接力登場：明華園戲劇總團帶來《烏龍天下》，從臺灣烏龍茶與大稻埕發展回望 19 世紀歷史；唐美雲歌仔戲團則以《南都幽靈夜譚》，從百年前臺南府城故事展現創新舞臺語彙（資料來源：臺灣戲曲中心官網）。\n同時，財團法人臺灣歌仔戲推廣基金會也舉辦「2026 兒童歌仔戲—親子劇場匯演」，累計吸引超過 4 萬 5 千人次參與。活動不僅設計了「鴿仔」與「鴿姬」兩位主題人物，更規劃免費戲服試穿、畫戲、藍染與看戲集點活動，讓大小朋友在歡笑中親近傳統藝術（資料來源：臺灣歌仔戲推廣基金會）。",
+          "figures": []
+        },
+        {
+          "id": "w13_ctx3",
+          "sectionId": "w13_sec3",
+          "title": "【情境三：廟口外臺戲的世代對話】",
+          "intro": "週六傍晚，社區廟宇廣場舉辦慶祝活動，邀請歌仔戲團搭設傳統戲臺進行外臺公演。學校六年級同學與阿公阿嬤一同在臺下欣賞，現場畫面如下圖所示：",
+          "excerptTitle": "",
+          "excerpt": "",
+          "figures": [
+            {
+              "id": "w13_fig1",
+              "caption": "情境三：廟口外臺戲的世代對話",
+              "src": "assets/images/chinese/w13_fig1.jpg",
+              "driveUrl": "",
+              "sourceNote": ""
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "chinese_w13_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sectionId": "w13_sec1",
+          "contextId": "w13_ctx1",
+          "type": "true_false",
+          "points": 4,
+          "tag": "是非判斷",
+          "prompt": "展板中提到孫翠鳳「26 歲才開始學戲，連臺語都說得零零落落」，這說明只要有破釜沉舟的決心與苦練，即使起步比別人晚，依然能「大器晚成」，開創亮眼表現。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "孫翠鳳從門外漢苦熬成當家台柱的歷程，正印證了後天努力與毅力能克服起步較晚的限制。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sectionId": "w13_sec1",
+          "contextId": "w13_ctx1",
+          "type": "true_false",
+          "points": 4,
+          "tag": "是非判斷",
+          "prompt": "語詞「跑龍套」在戲曲與現代語境中，指的是劇團裡擔任主角、臺詞最多且\n戲份最吃重的靈魂人物。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "「跑龍套」原指戲曲中穿著龍套衣扮演兵卒或隨從的配角，現多用來比喻在團隊或活動中擔任微不足道、打雜或串場的配角。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q3",
+          "number": 3,
+          "displayNumber": "3",
+          "sectionId": "w13_sec1",
+          "contextId": "w13_ctx1",
+          "type": "true_false",
+          "points": 4,
+          "tag": "是非判斷",
+          "prompt": "孫翠鳳原本嗓音粗啞，在傳統旦角唱腔中屬於劣勢，但她反而善用這項特質\n轉攻「小生」行當，展現了「化阻力為助力」的應變智慧。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "在傳統戲曲行當中，「生」扮演男性角色，嗓音洪亮厚實反而是詮釋文武小生的優勢。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q4",
+          "number": 4,
+          "displayNumber": "4",
+          "sectionId": "w13_sec1",
+          "contextId": "w13_ctx1",
+          "type": "true_false",
+          "points": 4,
+          "tag": "是非判斷",
+          "prompt": "依據 2026 年最新報導，明華園從 1990 年代開始赴海外巡演時，因為歌仔戲只有臺灣人看得懂，所以始終無法打入國際市場，至今只曾在國內廟口演出。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "依據自由時報藝文網報導，明華園無懼質疑，成功將歌仔戲帶上國際舞臺，文化外交足跡已走遍全球 80 座城市。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q5",
+          "number": 5,
+          "displayNumber": "5",
+          "sectionId": "w13_sec1",
+          "contextId": "w13_ctx1",
+          "type": "true_false",
+          "points": 4,
+          "tag": "是非判斷",
+          "prompt": "展板文字中寫道「身上常留下傷痕『紀念品』」，此處的「紀念品」加上引\n號，是用來表示把練功受傷的疤痕比喻為努力付出的榮耀印記，屬於特殊的借喻用法。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "引號在此賦予「紀念品」超越實物伴手禮的特殊情感意義，象徵苦練歷程的見證。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q6",
+          "number": 6,
+          "displayNumber": "6",
+          "sectionId": "w13_sec2",
+          "contextId": "w13_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "字音與字形辨析",
+          "prompt": "小宇為班級戲曲海報撰寫簡介時，檢查了幾個容易讀錯的字音，下列哪一組讀音完全正確？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "亦生亦「旦」：音「ㄉㄢˋ」／ 唱「腔」圓潤：音「ㄑㄧㄤ」"
+            },
+            {
+              "key": "B",
+              "text": "「雉」雞翎：音「ㄓˋ」／「粗」啞嗓音：音「ㄗㄨˇ」"
+            },
+            {
+              "key": "C",
+              "text": "臺下十年「功」：音「ㄍㄨㄥ」／「闡」述精神：音「ㄉㄢˋ」"
+            },
+            {
+              "key": "D",
+              "text": "巡迴「演」出：音「ㄧㄢˇ」／ 氣勢磅「礴」：音「ㄆㄛˋ」"
+            }
+          ],
+          "answer": "A",
+          "answerText": "",
+          "steps": [],
+          "explanation": "(A) 皆正確；(B) 「粗」音ㄘㄨ；(C) 「闡」音ㄔㄢˇ；(D) 磅「礴」音ㄅㄛˊ，非ㄆㄛˋ。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q7",
+          "number": 7,
+          "displayNumber": "7",
+          "sectionId": "w13_sec2",
+          "contextId": "w13_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "詞語語境應用",
+          "prompt": "下列句子中「 」內的成語，哪一個使用最不恰當？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "孫翠鳳為了演好武生，每天「披星戴月」的反覆練習翻滾與槍法"
+            },
+            {
+              "key": "B",
+              "text": "歌仔戲團在廟口「粉墨登場」，立刻吸引大批鄰里長輩前來觀賞"
+            },
+            {
+              "key": "C",
+              "text": "兒童歌仔戲現場「門可羅雀」，擠滿了攜家帶眷前來集點看戲的親子觀眾"
+            },
+            {
+              "key": "D",
+              "text": "臺灣傳統戲曲在劇團不斷創新下，總能「推陳出新」，贏得年輕世代喜愛"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [],
+          "explanation": "「門可羅雀」形容訪客稀少、十分冷清，與後半句「擠滿了親子觀眾」語意完全矛盾，應改為「門庭若市」或「座無虛席」。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q8",
+          "number": 8,
+          "displayNumber": "8",
+          "sectionId": "w13_sec2",
+          "contextId": "w13_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "複句邏輯與語意關係",
+          "prompt": "藝文報導中寫道：「兒童歌仔戲不僅設計了可愛的主題人物，更規劃了免費戲服試穿與看戲集點活動。」這句話屬於下列哪一種複句？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "選擇複句"
+            },
+            {
+              "key": "B",
+              "text": "遞進複句"
+            },
+            {
+              "key": "C",
+              "text": "轉折複句"
+            },
+            {
+              "key": "D",
+              "text": "因果複句"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "關聯詞「不僅……更……」表示後一個分句的意思比前一個分句更進一層，屬於遞進複句。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q9",
+          "number": 9,
+          "displayNumber": "9",
+          "sectionId": "w13_sec2",
+          "contextId": "w13_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "文本訊息理解與推論",
+          "prompt": "根據上文《烏龍天下》與《南都幽靈夜譚》兩檔 2026 年旗艦作品的簡介，現代歌仔戲在劇本題材的選擇上呈現出什麼趨勢？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "只演譯古代神話傳說，完全排除現代舞臺燈光與技術"
+            },
+            {
+              "key": "B",
+              "text": "深度挖掘臺灣在地產業（如烏龍茶）與城市歷史記憶，展現本土文化特色"
+            },
+            {
+              "key": "C",
+              "text": "為了節省成本，取消所有現場唱腔，改為純默劇演出"
+            },
+            {
+              "key": "D",
+              "text": "規定只有具備 50 年經驗的資深長輩才能進場購票觀賞"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "兩齣作品分別回望大稻埕烏龍茶發展與臺南府城百年歷史，展現歌仔戲結合臺灣在地文化與歷史題材的創作能量。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q10",
+          "number": 10,
+          "displayNumber": "10",
+          "sectionId": "w13_sec2",
+          "contextId": "w13_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "閱讀理解與活動目的判讀",
+          "prompt": "臺灣歌仔戲推廣基金會舉辦親子劇場時，除了看戲還結合「戲服體驗、畫戲、藍染」等免費活動，最主要的目的為何？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "透過多元趣味的五感體驗，拉近孩子與傳統戲曲的距離，培養未來觀眾"
+            },
+            {
+              "key": "B",
+              "text": "因為歌仔戲本身太無聊，必須靠手工藝品才能勉強留住觀眾"
+            },
+            {
+              "key": "C",
+              "text": "打算取代學校的美術課與音樂課，讓學生不用上學"
+            },
+            {
+              "key": "D",
+              "text": "測試戲服材質是否適合拿來製作日常生活中的雨衣"
+            }
+          ],
+          "answer": "A",
+          "answerText": "",
+          "steps": [],
+          "explanation": "文化傳承需要從小扎根，透過親身試穿戲服與互動體驗，能讓兒童對歌仔戲產生親切感與興趣。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q11",
+          "number": 11,
+          "displayNumber": "11",
+          "sectionId": "w13_sec2",
+          "contextId": "w13_ctx2",
+          "type": "choice",
+          "points": 6,
+          "tag": "篇章主旨與人生態度省思",
+          "prompt": "課文〈孫翠鳳和歌仔戲〉中，孫翠鳳認為「臺上一分鐘，臺下十年功」，且無論在野臺或國家劇院都全力以赴。這項態度最適合用來勉勵面臨下列哪一種困境的人？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "考試前一天才臨時抱佛腳，希望靠猜題獲得滿分的學生"
+            },
+            {
+              "key": "B",
+              "text": "剛加入校隊卻覺得基本動作太枯燥，想要立刻放棄的新手"
+            },
+            {
+              "key": "C",
+              "text": "已經拿到冠軍獎盃，決定從此不再練習的運動員"
+            },
+            {
+              "key": "D",
+              "text": "只喜歡在網路上批評別人作品，自己卻從不動手創作的網友"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [],
+          "explanation": "「臺上一分鐘，臺下十年功」強調基本功的紮實累積與不輕言放棄的毅力，最能鼓勵遇到撞牆期的新手。",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q12",
+          "number": 12,
+          "displayNumber": "12",
+          "sectionId": "w13_sec3",
+          "contextId": "w13_ctx3",
+          "type": "applied",
+          "points": 10,
+          "tag": "圖表觀察與戲曲元素解讀",
+          "prompt": "請仔細觀察上圖的舞臺配置與觀眾席互動，回答下列問題：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "觀察舞臺中央的演員服飾與舞臺右側的三位樂師（文武場），請指出戲曲表演中「文武場」與「演員身段（如水袖、雉雞翎）」各自扮演什麼關鍵角色？（6 分）",
+              "points": 6
+            },
+            {
+              "label": "(2)",
+              "text": "注意看舞臺右側立著一塊大型「直立式螢幕」，上面顯示著文字字幕。在現代外臺歌仔戲中加入即時字幕螢幕，對現場不同世代的觀眾有什麼實質幫助？（4 分）",
+              "points": 4
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 演員透過「水袖」揮舞與頭戴「雉雞翎」等精美服飾配件，搭配身段動作展現角色的氣勢與情感張力；舞臺側邊的「文武場」樂師（演奏胡琴、鑼、鼓等）則負責掌控全場節奏、烘托氣氛與引導演員唱腔身段，兩者缺一不可。（6 分）\n(2) 對於不熟悉臺語古詞彙或聽力較弱的年輕學童與跨族群觀眾，即時字幕能消除語言隔閡，讓他們快速理解劇情內涵，進而融入戲曲魅力。（4 分）",
+          "steps": [],
+          "explanation": "",
+          "rubric": []
+        },
+        {
+          "id": "chinese_w13_q13",
+          "number": 13,
+          "displayNumber": "13",
+          "sectionId": "w13_sec3",
+          "contextId": "w13_ctx3",
+          "type": "applied",
+          "points": 10,
+          "tag": "語文修辭與動態摹寫實作",
+          "prompt": "課文中描繪孫翠鳳在舞臺上「一舉手、一投足」皆散發迷人風采。請觀察上圖中演員揮舞長長水袖的姿態，運用「譬喻」或「誇飾」其中一種修辭，並結合「視覺」與「聽覺」摹寫，寫出一段 50～70 字的舞臺現場描寫。（請在文末括號註明使用的修辭名稱）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "參考範例：只見舞臺上的武生縱身一躍，雪白的水袖如兩道奔騰的雲龍在空中翻飛；伴隨鑼鼓聲震天價響，他清亮的唱腔瞬間穿透夜空，令臺下觀眾看得目不轉睛。（譬喻、視覺與聽覺摹寫）",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "4分",
+              "text": "準確運用譬喻或誇飾"
+            },
+            {
+              "score": "4分",
+              "text": "兼具視覺與聽覺摹寫且文句流暢"
+            },
+            {
+              "score": "2分",
+              "text": "字數符合 50～70 字規範且無錯別字"
+            }
+          ]
+        },
+        {
+          "id": "chinese_w13_q14",
+          "number": 14,
+          "displayNumber": "14",
+          "sectionId": "w13_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": 12,
+          "tag": "校園傳統藝術推廣企劃——「校園歌仔戲體驗日」",
+          "prompt": "參考「2026 兒童歌仔戲」的成功經驗，學校打算在下學期舉辦一場「校園歌仔戲體驗日」，邀請專業劇團入校示範。請你擔任活動企劃小組成員，設計這項活動的執行簡表：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [
+            "活動主題名稱：（2 分）",
+            "互動體驗關卡設計（請設計一項結合「身段/唱腔/服飾」的學生體驗活動）：（4分）",
+            "宣傳標語與邀請理由：請為這場活動寫一段給全校同學的宣傳短文，內容務必包含一組遞進複句「不但……更……」。（60～90 字）（6 分）"
+          ],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "參考範例：\n- 活動主題名稱：穿越時空當一天戲曲小生！\n- 互動體驗關卡：水袖甩動挑戰賽與「七字調」趣味跟唱體驗攤位。\n- 宣傳短文：各位同學，想體驗身穿刺繡戲服、帥氣揮舞水袖的滋味嗎？參加「校園歌仔戲體驗日」，你不但能近距離向專業老師學習經典武打身段，更能親身體會臺灣傳統戲曲跨越百年的生命力，快來一起加入吧！",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "6分",
+              "text": "主題與體驗關卡具體有趣"
+            },
+            {
+              "score": "6分",
+              "text": "正確運用「不但……更……」遞進複句且具宣傳感染力"
+            }
+          ]
+        },
+        {
+          "id": "chinese_w13_q15",
+          "number": 15,
+          "displayNumber": "15",
+          "sectionId": "w13_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": 12,
+          "tag": "傳統與創新的平衡思辨",
+          "prompt": "在討論「歌仔戲該如何走向未來」時，社區裡出現了兩種不同意見：",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [
+            {
+              "label": "傳統派",
+              "text": "歌仔戲應該原汁原味保留傳統樂器、臺語古韻與歷史忠孝節義故事，加入太多現代特效、雷射燈光或國語臺詞會失去原本的味道。"
+            },
+            {
+              "label": "創新派",
+              "text": "時代在改變，歌仔戲必須像明華園或當代劇團一樣，大膽結合投影科技、跨界題材甚至雙語字幕，才能吸引年輕人進場，不至於失傳。"
+            }
+          ],
+          "stancePrompt": "請回答：\n你較認同哪一種看法，或認為兩者該如何取得平衡？請結合「文化核心保存」與「吸引年輕世代」兩個角度，寫出你的觀點與一項具體可行的做法。（字數約 100～130 字）",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "參考範例：我認為傳統與創新必須相輔相成，缺一不可。歌仔戲最珍貴的核心是演員紮實的唱念做打基本功與本土語言韻味，這部分絕對不能省略；但在舞臺呈現與敘事題材上，可以適度加入現代燈光投影、即時字幕，甚至將臺灣在地的茶業或歷史故事改編入戲。唯有守住技藝靈魂、同時擁抱現代語彙，才能讓阿公阿嬤看得親切，也讓年輕世代願意走進劇場。",
+          "steps": [],
+          "explanation": "",
+          "rubric": [
+            {
+              "score": "6分",
+              "text": "觀點清晰，能同時考量「核心保存」與「吸引年輕觀眾」"
+            },
+            {
+              "score": "4分",
+              "text": "提出具體做法"
+            },
+            {
+              "score": "2分",
+              "text": "文字流暢有條理"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

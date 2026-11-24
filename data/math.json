@@ -1,0 +1,1958 @@
+{
+  "subject": "math",
+  "subjectLabel": "數學",
+  "title": "115學年-1每週時事數學試題",
+  "subtitle": "本文件為 115 學年度新北市麗園國小六年級數學每週素養試題彙整，內容嚴格對應康軒版教材與課程計畫進度，深度融入真實時事、生活情境與安全必要情境，每週提供 15 題（5 題是非題＋5 題選擇題＋5 題應用題），格式統一為「題目－圖片－答案」，便於教師直接出題、投影教學與列印使用。",
+  "sourceFiles": [
+    "115學年-1每週時事數學試題.docx"
+  ],
+  "updatedAt": "2026-11-24T13:16:11+08:00",
+  "metaNotes": [],
+  "weeks": [
+    {
+      "weekNumber": 11,
+      "weekLabel": "第 11 週",
+      "title": "認識圓周率（11/09～11/13）",
+      "schedule": "第六單元「圓周長與扇形周長」活動一：認識圓周率（期中評量週）",
+      "goals": "實測圓周長與直徑、察覺「圓周長 ÷ 直徑」的值是固定的（圓周率約 3.14）、運用圓周長約為直徑 3.14 倍進行估算與比較。",
+      "sections": [
+        {
+          "id": "w11_sec1",
+          "label": "壹",
+          "title": "是非題",
+          "scoreInfo": "",
+          "defaultType": "true_false"
+        },
+        {
+          "id": "w11_sec2",
+          "label": "貳",
+          "title": "選擇題",
+          "scoreInfo": "",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w11_sec3",
+          "label": "參",
+          "title": "應用題",
+          "scoreInfo": "",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [],
+      "questions": [
+        {
+          "id": "math_w11_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sourceNumber": 1,
+          "sectionId": "w11_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "幾何概念辨析",
+          "prompt": "大圓的圓周長比小圓長，所以大圓的圓周率也比小圓的圓周率大。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "不論圓是大是小，任何圓的「圓周長 ÷ 直徑」（圓周率）都是一個固定的值，大約是 3.14。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sourceNumber": 2,
+          "sectionId": "w11_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "建築防災時事",
+          "prompt": "根據台北 101 官方學習單，台北 101 88 樓風阻尼球直徑為 5.5 公尺。若工程人員實測這顆阻尼球最大圓周長後，再除以它的直徑 5.5 公尺，得到的數值大約是 3.14。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "圓周長 ÷ 直徑 = 圓周率 ≈ 3.14。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q3",
+          "number": 3,
+          "displayNumber": "4",
+          "sourceNumber": 4,
+          "sectionId": "w11_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "實測方法判斷",
+          "prompt": "測量圓形光碟片時，只要用直尺量出光碟片的「半徑」，再把半徑乘以 3.14，就能算出這片光碟片的圓周長。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "圓周長大約是「直徑」的 3.14 倍，因此必須用「直徑 × 3.14」（或半徑 × 2 × 3.14），不能只用半徑乘以 3.14。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q4",
+          "number": 4,
+          "displayNumber": "5",
+          "sourceNumber": 5,
+          "sectionId": "w11_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "氣象科普時事",
+          "prompt": "根據交通部中央氣象署數位導覽，新北市五分山氣象雷達站圓球狀天線罩的直徑為 11.6 公尺，因此這顆天線罩的最大圓周長必定超過 30 公尺。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "圓周長 ≈ 11.6 × 3.14 = 36.424 (公尺)，確實超過 30 公尺（甚至不用精算，光用 11.6 × 3 = 34.8 就已大於 30）。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q5",
+          "number": 5,
+          "displayNumber": "7",
+          "sourceNumber": 7,
+          "sectionId": "w11_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "建築防災時事：台北 101 抗震風阻尼球",
+          "prompt": "台灣位於環太平洋地震帶且常有颱風侵襲，台北 101 大樓在 88 樓設置了重達 660 公噸的圓球形「調諧質量阻尼器」（風阻尼球）來減緩大樓搖晃。根據台北 101 官方學習單資料，這顆阻尼球的直徑為 5.5 公尺（如下圖示意圖）。若工程人員要用皮尺測量阻尼球最寬處（水平赤道圈）的圓周長，長度大約是多少公尺？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w11_fig1",
+              "caption": "第十一週_第7題_台北101風阻尼球示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/11ERo0DT1HeqwOUjEZwKVNn1LBtud7lWh/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "11.0 公尺"
+            },
+            {
+              "key": "B",
+              "text": "17.27 公尺"
+            },
+            {
+              "key": "C",
+              "text": "22.0 公尺"
+            },
+            {
+              "key": "D",
+              "text": "34.54 公尺"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [
+            "圓周長大約是直徑的 3.14 倍。",
+            "5.5 × 3.14 = 17.27 (公尺)。"
+          ],
+          "explanation": "圓周長大約是直徑的 3.14 倍。\n5.5 × 3.14 = 17.27 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q6",
+          "number": 6,
+          "displayNumber": "8",
+          "sourceNumber": 8,
+          "sectionId": "w11_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "綠色交通情境：YouBike 2.0 前後輪的圓周率比較",
+          "prompt": "根據臺北市政府第二代 YouBike 設備規格，為了讓民眾起步更輕巧好騎，YouBike 2.0 採用「前小後大」的輪徑設計（前輪 24 吋，直徑約 61 公分；後輪 26 吋，直徑約 66 公分）。關於前輪和後輪「圓周長 ÷ 直徑」的結果，下列敘述何者正確？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "前輪的「圓周長 ÷ 直徑」比較小"
+            },
+            {
+              "key": "B",
+              "text": "後輪的「圓周長 ÷ 直徑」比較大"
+            },
+            {
+              "key": "C",
+              "text": "兩者算出來的結果一樣大，都大約是 3.14"
+            },
+            {
+              "key": "D",
+              "text": "因為輪徑不同，所以無法比較兩者的圓周率"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "圓周率不隨圓的大小而改變，前輪與後輪的「圓周長 ÷ 直徑」皆約為 3.14。"
+          ],
+          "explanation": "圓周率不隨圓的大小而改變，前輪與後輪的「圓周長 ÷ 直徑」皆約為 3.14。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q7",
+          "number": 7,
+          "displayNumber": "9",
+          "sourceNumber": 9,
+          "sectionId": "w11_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "氣象科普時事：新北市五分山氣象雷達站天線罩",
+          "prompt": "矗立於新北市瑞芳五分山山頂的氣象雷達站，外型是一顆巨大的白色圓球。根據交通部中央氣象署數位導覽介紹，該圓球形雷達天線罩直徑為 11.6 公尺，可抵抗 17 級強風。若測得該天線罩最大圓周長約為 36.424 公尺，將此圓周長除以直徑 11.6 公尺，所得的數值代表什麼意義？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "雷達站的總高度"
+            },
+            {
+              "key": "B",
+              "text": "天線罩的圓周率"
+            },
+            {
+              "key": "C",
+              "text": "雷達掃描的最遠距離"
+            },
+            {
+              "key": "D",
+              "text": "天線罩的半徑長度"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [
+            "圓周長 ÷ 直徑 = 36.424 ÷ 11.6 = 3.14，此比值即為「圓周率」。"
+          ],
+          "explanation": "圓周長 ÷ 直徑 = 36.424 ÷ 11.6 = 3.14，此比值即為「圓周率」。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q8",
+          "number": 8,
+          "displayNumber": "10",
+          "sourceNumber": 10,
+          "sectionId": "w11_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "實驗判讀情境：圓形瓶蓋實測數據除錯",
+          "prompt": "四位同學各自拿不同的圓形瓶蓋進行「認識圓周率」實測活動，並將直徑與圓周長記錄在下表中（如下圖紀錄表）。依據「圓周長大約是直徑的 3.14 倍」判斷，哪一位同學的測量結果最可能出現明顯錯誤？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w11_fig2",
+              "caption": "第十一週_第10題_圓形瓶蓋實測紀錄表",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1f5XNM8cqZS2wNKVqXqbBjDE4HJHdt6pM/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "小安"
+            },
+            {
+              "key": "B",
+              "text": "小宇"
+            },
+            {
+              "key": "C",
+              "text": "小晴"
+            },
+            {
+              "key": "D",
+              "text": "小凱"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "檢驗各組「圓周長 ÷ 直徑」：",
+            "小安：12.5 ÷ 4 = 3.125（合理，接近 3.14）",
+            "小宇：15.7 ÷ 5 = 3.14（合理）",
+            "小晴：12.8 ÷ 6 ≈ 2.13（明顯偏離 3.14，測量有誤）",
+            "小凱：31.4 ÷ 10 = 3.14（合理）"
+          ],
+          "explanation": "檢驗各組「圓周長 ÷ 直徑」：\n小安：12.5 ÷ 4 = 3.125（合理，接近 3.14）\n小宇：15.7 ÷ 5 = 3.14（合理）\n小晴：12.8 ÷ 6 ≈ 2.13（明顯偏離 3.14，測量有誤）\n小凱：31.4 ÷ 10 = 3.14（合理）",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q9",
+          "number": 9,
+          "displayNumber": "11",
+          "sourceNumber": 11,
+          "sectionId": "w11_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "天文科普情境：地球與月球的圓周率比較",
+          "prompt": "科學博物館的太空特展展示地球與月球的模型與真實數據：地球赤道直徑約 12,742 公里，月球赤道直徑約 3,474 公里。",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "假設各用一條超長的繩子分別繞地球赤道與月球赤道一圈，兩者的「圓周長 ÷ 直徑」哪一個比較大？為什麼？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "請以圓周率 3.14 估算，直徑 3,474 公里的月球赤道圓周長大約是多少公里？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 一樣大；因為所有圓的「圓周長 ÷ 直徑」（圓周率）都是固定值，大約是 3.14，不會因為天體大小不同而改變。\n(2) 10,908.36 公里",
+          "steps": [
+            "月球赤道圓周長 ≈ 3,474 × 3.14 = 10,908.36 (公里)。"
+          ],
+          "explanation": "月球赤道圓周長 ≈ 3,474 × 3.14 = 10,908.36 (公里)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q10",
+          "number": 10,
+          "displayNumber": "12",
+          "sourceNumber": 12,
+          "sectionId": "w11_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "校園生態實測：測量校園老榕樹樹幹直徑",
+          "prompt": "自然課進行校園植物踏查，六年級同學想測量校園老榕樹樹幹的直徑，但無法直接把直尺穿過樹幹內部。於是小美拿軟皮尺繞著樹幹水平圍了一圈，量出樹圍剛好是 314 公分。",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "小美繞樹幹一圈量出的「樹圍」，相當於圓形的什麼部位？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "根據圓周長大約是直徑的 3.14 倍，這棵老榕樹的樹幹直徑大約是多少公分？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 圓周長\n(2) 100 公分",
+          "steps": [
+            "直徑 ≈ 圓周長 ÷ 3.14 = 314 ÷ 3.14 = 100 (公分)。"
+          ],
+          "explanation": "直徑 ≈ 圓周長 ÷ 3.14 = 314 ÷ 3.14 = 100 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q11",
+          "number": 11,
+          "displayNumber": "13",
+          "sourceNumber": 13,
+          "sectionId": "w11_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "生活實驗情境：滾動鋁罐實測圓周長",
+          "prompt": "小明在書桌上做實驗，將一罐圓柱形運動飲料鋁罐平放，在接觸桌面的邊緣貼上小貼紙作為記號，對齊直尺的 0 公分刻度線後，筆直向前滾動整整 1 圈，記號點剛好再次回到桌面並停在直尺的 20.41 公分處（如下圖示意圖）。",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這個鋁罐底面的圓周長是多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "已知這罐鋁罐底面的直徑是 6.5 公分，請計算它的「圓周長 ÷ 直徑」是多少？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w11_fig3",
+              "caption": "第十一週_第13題_鋁罐滾動測圓周長示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1BbQg_8SpFXBDH7QG9utK8QJ41R7p-2UK/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 20.41 公分\n(2) 3.14",
+          "steps": [
+            "滾動一整圈前進的距離就是底面圓周長，為 20.41 公分。",
+            "圓周長 ÷ 直徑 = 20.41 ÷ 6.5 = 3.14，正好符合圓周率的數值。"
+          ],
+          "explanation": "滾動一整圈前進的距離就是底面圓周長，為 20.41 公分。\n圓周長 ÷ 直徑 = 20.41 ÷ 6.5 = 3.14，正好符合圓周率的數值。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q12",
+          "number": 12,
+          "displayNumber": "14",
+          "sourceNumber": 14,
+          "sectionId": "w11_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "居家節能情境：電風扇安全保護網估算",
+          "prompt": "台灣夏季炎熱，家中常使用節能電風扇搭配冷氣省電。一款 14 吋立扇外圍圓形保護網的直徑為 40 公分（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這組圓形保護網外框的圓周長大約是多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "為了避免家中小朋友手指伸入發生危險，爸爸買了一條長 120 公分的防夾橡膠保護條想包住整個保護網外圈，請問這條保護條夠不夠長？還差或剩下幾公分？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 125.6 公分\n(2) 不夠長，還差 5.6 公分",
+          "steps": [
+            "保護網外框圓周長 ≈ 40 × 3.14 = 125.6 (公分)。",
+            "120 < 125.6，故不夠長，相差 125.6 - 120 = 5.6 (公分)。"
+          ],
+          "explanation": "保護網外框圓周長 ≈ 40 × 3.14 = 125.6 (公分)。\n120 < 125.6，故不夠長，相差 125.6 - 120 = 5.6 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w11_q13",
+          "number": 13,
+          "displayNumber": "15",
+          "sourceNumber": 15,
+          "sectionId": "w11_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "藝文展覽時事：草間彌生巨型圓點南瓜雕塑",
+          "prompt": "2026 年 11 月藝文展覽展出日本藝術家草間彌生的巨型南瓜雕塑，根據新聞報導，這座雕塑的最大水平橫切面直徑達 8 公尺（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "策展團隊沿著直徑 8 公尺的圓形底座外圍拉一圈警示隔離線，這圈隔離線大約有多長？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "展覽商店另外製作了直徑 2 公尺的迷你南瓜展示底座，請問大底座的直徑是小底座的幾倍？大底座圓周長又是小底座圓周長的幾倍？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 25.12 公尺\n(2) 都是 4 倍",
+          "steps": [
+            "大底座圓周長 ≈ 8 × 3.14 = 25.12 (公尺)。",
+            "直徑倍數 = 8 ÷ 2 = 4 (倍)；小底座圓周長 ≈ 2 × 3.14 = 6.28 (公尺)，圓周長倍數 = 25.12 ÷ 6.28 = 4 (倍)。"
+          ],
+          "explanation": "大底座圓周長 ≈ 8 × 3.14 = 25.12 (公尺)。\n直徑倍數 = 8 ÷ 2 = 4 (倍)；小底座圓周長 ≈ 2 × 3.14 = 6.28 (公尺)，圓周長倍數 = 25.12 ÷ 6.28 = 4 (倍)。",
+          "rubric": []
+        }
+      ]
+    },
+    {
+      "weekNumber": 12,
+      "weekLabel": "第 12 週",
+      "title": "圓周長計算與生活應用（11/16～11/20）",
+      "schedule": "第六單元「圓周長與扇形周長」活動二：圓周長",
+      "goals": "應用圓周率求算圓周長、正方形內最大圓的圓周長、兩圓直徑與圓周長的倍數關係、由圓周長反推直徑或半徑、生活複合圓周問題。",
+      "sections": [
+        {
+          "id": "w12_sec1",
+          "label": "壹",
+          "title": "是非題",
+          "scoreInfo": "",
+          "defaultType": "true_false"
+        },
+        {
+          "id": "w12_sec2",
+          "label": "貳",
+          "title": "選擇題",
+          "scoreInfo": "",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w12_sec3",
+          "label": "參",
+          "title": "應用題",
+          "scoreInfo": "",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [],
+      "questions": [
+        {
+          "id": "math_w12_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sourceNumber": 1,
+          "sectionId": "w12_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "生活計算判斷",
+          "prompt": "已知一個圓形牆壁掛鐘的半徑是 15 公分，它的圓周長大約是 15 × 3.14 = 47.1 公分。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "半徑 15 公分的圓，直徑是 15 × 2 = 30 (公分)，圓周長應為 30 × 3.14 = 94.2 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sourceNumber": 2,
+          "sectionId": "w12_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "創客美勞情境",
+          "prompt": "在一張邊長 20 公分的正方形色紙裡，剪出一個最大的圓，這個圓的直徑是 20 公分，圓周長大約是 62.8 公分。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "正方形內最大圓的直徑等於正方形邊長 20 公分，圓周長 = 20 × 3.14 = 62.8 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q3",
+          "number": 3,
+          "displayNumber": "3",
+          "sourceNumber": 3,
+          "sectionId": "w12_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "社區營造情境",
+          "prompt": "社區公園有一座圓周長為 31.4 公尺的圓形花圃，若圓周率以 3.14 計算，這座花圃的直徑大約是 10 公尺，半徑大約是 5 公尺。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "直徑 = 31.4 ÷ 3.14 = 10 (公尺)；半徑 = 10 ÷ 2 = 5 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q4",
+          "number": 4,
+          "displayNumber": "4",
+          "sourceNumber": 4,
+          "sectionId": "w12_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "綠色交通情境",
+          "prompt": "YouBike 2.0 的前輪直徑（24 吋）比後輪（26 吋）小，因此騎乘同一段路程時，前輪轉動的圈數會比後輪「少」。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "前輪直徑較小、圓周長較短，滾動一圈前進距離較短，因此騎乘相同路程時，前輪轉動的圈數會比後輪「多」。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q5",
+          "number": 5,
+          "displayNumber": "5",
+          "sourceNumber": 5,
+          "sectionId": "w12_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "校園體育情境",
+          "prompt": "將田徑操場兩端、半徑都是 10 公尺的兩個半圓形彎道合起來，它們的曲線弧長總和剛好等於一個直徑 20 公尺的完整圓的圓周長。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "兩個半徑 10 公尺（直徑 20 公尺）的半圓合起來，正好是一個直徑 20 公尺的完整圓。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q6",
+          "number": 6,
+          "displayNumber": "8",
+          "sourceNumber": 8,
+          "sectionId": "w12_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "公共工程時事：捷運環狀線地下段潛盾隧道",
+          "prompt": "根據新北市政府工程資訊，台北捷運環狀線地下段潛盾隧道的圓形外徑為 6.1 公尺。若工程團隊沿著該隧道圓形斷面的外圓周鋪設一圈防水止水環帶，這圈環帶的長度大約是多少公尺？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "9.577 公尺"
+            },
+            {
+              "key": "B",
+              "text": "12.2 公尺"
+            },
+            {
+              "key": "C",
+              "text": "19.154 公尺"
+            },
+            {
+              "key": "D",
+              "text": "38.308 公尺"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "圓周長 = 直徑 × 3.14 = 6.1 × 3.14 = 19.154 (公尺)。"
+          ],
+          "explanation": "圓周長 = 直徑 × 3.14 = 6.1 × 3.14 = 19.154 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q7",
+          "number": 7,
+          "displayNumber": "9",
+          "sourceNumber": 9,
+          "sectionId": "w12_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "綠色通勤情境：YouBike 2.0 騎乘距離計算",
+          "prompt": "小華每天騎 YouBike 2.0 上學，已知 YouBike 2.0 後輪為 26 吋（直徑約 66 公分）。某天小華從家裡騎到學校時，後輪總共向前轉動了 500 圈（輪胎未打滑，圓周率以 3.14 計算），請問這段路程大約是多少公尺？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "207.24 公尺"
+            },
+            {
+              "key": "B",
+              "text": "518.1 公尺"
+            },
+            {
+              "key": "C",
+              "text": "1,036.2 公尺"
+            },
+            {
+              "key": "D",
+              "text": "2,072.4 公尺"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "後輪轉動 1 圈的距離（圓周長）= 66 × 3.14 = 207.24 (公分)。",
+            "轉動 500 圈總距離 = 207.24 × 500 = 103,620 (公分) = 1,036.2 (公尺)。"
+          ],
+          "explanation": "後輪轉動 1 圈的距離（圓周長）= 66 × 3.14 = 207.24 (公分)。\n轉動 500 圈總距離 = 207.24 × 500 = 103,620 (公分) = 1,036.2 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q8",
+          "number": 8,
+          "displayNumber": "10",
+          "sourceNumber": 10,
+          "sectionId": "w12_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "幾何概念辨析：兩圓半徑倍數與圓周長關係",
+          "prompt": "已知甲圓的半徑是乙圓半徑的 3 倍，關於甲、乙兩個圓的敘述，下列何者「錯誤」？",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "甲圓的直徑是乙圓直徑的 3 倍"
+            },
+            {
+              "key": "B",
+              "text": "甲圓的圓周長是乙圓圓周長的 3 倍"
+            },
+            {
+              "key": "C",
+              "text": "甲圓的「圓周長 ÷ 直徑」與乙圓的「圓周長 ÷ 直徑」相等"
+            },
+            {
+              "key": "D",
+              "text": "甲圓的圓周長是乙圓圓周長的 9 倍"
+            }
+          ],
+          "answer": "D",
+          "answerText": "",
+          "steps": [],
+          "explanation": "當半徑變為原來的 3 倍時，直徑與圓周長都只會變為原來的 3 倍，不會變為 9 倍，故 (D) 錯誤。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q9",
+          "number": 9,
+          "displayNumber": "11",
+          "sourceNumber": 11,
+          "sectionId": "w12_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "單車賽事時事：2026 輪轉台灣單車挑戰賽",
+          "prompt": "2026 年 11 月登場的「輪轉台灣百 K 單車挑戰賽」，選手騎乘的標準公路車車輪外直徑約為 70 公分（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "車輪轉動 1 圈可以前進多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "在最後一段 4.396 公里（即 439,600 公分）的平路衝刺路段，車輪大約需要轉動多少圈？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 219.8 公分\n(2) 2,000 圈",
+          "steps": [
+            "車輪圓周長 = 70 × 3.14 = 219.8 (公分)。",
+            "轉動圈數 = 總距離 ÷ 圓周長 = 439,600 ÷ 219.8 = 2,000 (圈)。"
+          ],
+          "explanation": "車輪圓周長 = 70 × 3.14 = 219.8 (公分)。\n轉動圈數 = 總距離 ÷ 圓周長 = 439,600 ÷ 219.8 = 2,000 (圈)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q10",
+          "number": 10,
+          "displayNumber": "12",
+          "sourceNumber": 12,
+          "sectionId": "w12_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "生活烘焙情境：正方形蛋糕盒與圓形蛋糕圍邊紙",
+          "prompt": "烘焙坊製作一款直徑 20 公分的圓形草莓蛋糕，剛好可以緊貼放進一個正方形紙盒內（如下圖俯視圖，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這個正方形紙盒的底面邊長是多少公分？底面周長是多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "師傅要在圓形蛋糕的側面外圍圍上一圈透明圍邊紙，圍邊紙至少需要幾公分長？比正方形盒子的底面周長少了多少公分？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w12_fig1",
+              "caption": "第十二週_第12題_正方形蛋糕盒俯視圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1MklsEX-B1vQFwYI7Uv6pJQlQQaAc_QjT/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 底面邊長 20 公分；底面周長 80 公分\n(2) 圍邊紙至少需 62.8 公分；少 17.2 公分",
+          "steps": [
+            "圓形緊貼正方形內部，故正方形邊長 = 圓直徑 = 20 公分；正方形周長 = 20 × 4 = 80 (公分)。",
+            "蛋糕圍邊紙長度（圓周長）= 20 × 3.14 = 62.8 (公分)。",
+            "兩者相差 = 80 - 62.8 = 17.2 (公分)。"
+          ],
+          "explanation": "圓形緊貼正方形內部，故正方形邊長 = 圓直徑 = 20 公分；正方形周長 = 20 × 4 = 80 (公分)。\n蛋糕圍邊紙長度（圓周長）= 20 × 3.14 = 62.8 (公分)。\n兩者相差 = 80 - 62.8 = 17.2 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q11",
+          "number": 11,
+          "displayNumber": "13",
+          "sourceNumber": 13,
+          "sectionId": "w12_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "社區營造情境：圓形生態池圓周長反推半徑與地燈配置",
+          "prompt": "社區公園中央有一座圓形噴水生態池，管理員伯伯拿長捲尺沿著水池最外緣繞一圈，測得圓周長是 37.68 公尺（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這座圓形生態池的直徑和半徑各是多少公尺？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "若要在生態池外圍每隔 3.14 公尺安裝一盞太陽能景觀地燈（封閉圓形間隔數等於地燈數），一共需要安裝幾盞地燈？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 直徑 12 公尺；半徑 6 公尺\n(2) 12 盞",
+          "steps": [
+            "直徑 = 圓周長 ÷ 3.14 = 37.68 ÷ 3.14 = 12 (公尺)；半徑 = 12 ÷ 2 = 6 (公尺)。",
+            "封閉圓周上安裝地燈：地燈數量 = 圓周長 ÷ 間隔長 = 37.68 ÷ 3.14 = 12 (盞)。"
+          ],
+          "explanation": "直徑 = 圓周長 ÷ 3.14 = 37.68 ÷ 3.14 = 12 (公尺)；半徑 = 12 ÷ 2 = 6 (公尺)。\n封閉圓周上安裝地燈：地燈數量 = 圓周長 ÷ 間隔長 = 37.68 ÷ 3.14 = 12 (盞)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q12",
+          "number": 12,
+          "displayNumber": "14",
+          "sourceNumber": 14,
+          "sectionId": "w12_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "校園體育情境：200 公尺田徑跑道內緣總長計算",
+          "prompt": "學校 200 公尺田徑場是由兩條長 37.2 公尺的直線跑道，以及左右兩端各一個半徑 20 公尺的半圓形彎道所組成（如下圖示意圖，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "左右兩端的兩個半圓形彎道合起來，剛好相當於一個直徑多少公尺的完整圓？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "沿著這條跑道最內緣跑完完整一圈，總長度是多少公尺？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w12_fig2",
+              "caption": "第十二週_第14題_學校跑道內緣示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/180I0SMKsLflGBu74Nyxqdw29Ml1r5lzY/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 直徑 40 公尺\n(2) 200 公尺",
+          "steps": [
+            "兩個相同的半圓合起來是一個完整圓，直徑 = 半徑 × 2 = 20 × 2 = 40 (公尺)。",
+            "彎道圓周長 = 40 × 3.14 = 125.6 (公尺)。",
+            "跑道一圈總長 = 兩條直線跑道 + 彎道圓周長 = (37.2 × 2) + 125.6 = 74.4 + 125.6 = 200 (公尺)。"
+          ],
+          "explanation": "兩個相同的半圓合起來是一個完整圓，直徑 = 半徑 × 2 = 20 × 2 = 40 (公尺)。\n彎道圓周長 = 40 × 3.14 = 125.6 (公尺)。\n跑道一圈總長 = 兩條直線跑道 + 彎道圓周長 = (37.2 × 2) + 125.6 = 74.4 + 125.6 = 200 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w12_q13",
+          "number": 13,
+          "displayNumber": "15",
+          "sourceNumber": 15,
+          "sectionId": "w12_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "機電工程情境：大小捲線盤收納網路線",
+          "prompt": "資訊組進行校園網路線整理，現場有兩個不同尺寸的圓形捲線盤：大捲線盤直徑 50 公分，小捲線盤直徑 30 公分（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "兩個捲線盤各繞 1 圈時，所收納的線長相差多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "若要將一條長 15.7 公尺（即 1,570 公分）的網路線分別完整繞在兩個捲線盤上，大捲線盤和小捲線盤各需要轉動幾圈？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 相差 62.8 公分\n(2) 大捲線盤需轉 10 圈；小捲線盤需轉 16 又 2/3 圈（或約 17 圈，若需整數圈完全收完則至少轉 17 圈）",
+          "steps": [
+            "大捲線盤 1 圈長度 = 50 × 3.14 = 157 (公分)；小捲線盤 1 圈長度 = 30 × 3.14 = 94.2 (公分)。",
+            "1 圈線長差 = 157 - 94.2 = 62.8 (公分)（亦可利用直徑差計算：(50 - 30) × 3.14 = 20 × 3.14 = 62.8 公分）。",
+            "大捲線盤圈數 = 1,570 ÷ 157 = 10 (圈)。",
+            "小捲線盤圈數 = 1,570 ÷ 94.2 = 16.666... (圈) = 16 又 2/3 圈，故需轉動 17 圈才能將線完全收完。"
+          ],
+          "explanation": "大捲線盤 1 圈長度 = 50 × 3.14 = 157 (公分)；小捲線盤 1 圈長度 = 30 × 3.14 = 94.2 (公分)。\n1 圈線長差 = 157 - 94.2 = 62.8 (公分)（亦可利用直徑差計算：(50 - 30) × 3.14 = 20 × 3.14 = 62.8 公分）。\n大捲線盤圈數 = 1,570 ÷ 157 = 10 (圈)。\n小捲線盤圈數 = 1,570 ÷ 94.2 = 16.666... (圈) = 16 又 2/3 圈，故需轉動 17 圈才能將線完全收完。",
+          "rubric": []
+        }
+      ]
+    },
+    {
+      "weekNumber": 13,
+      "weekLabel": "第 13 週",
+      "title": "扇形弧長與扇形周長（11/23～11/27）",
+      "schedule": "第六單元「圓周長與扇形周長」活動三：扇形周長",
+      "goals": "認識扇形弧長與扇形周長的差別（扇形周長 = 弧長 + 兩條半徑）、計算 1/2 圓、1/4 圓、1/3 圓、1/6 圓、3/4 圓及任意圓心角扇形的弧長與周長、反推扇形半徑與複合扇形周長。",
+      "sections": [
+        {
+          "id": "w13_sec1",
+          "label": "壹",
+          "title": "是非題",
+          "scoreInfo": "",
+          "defaultType": "true_false"
+        },
+        {
+          "id": "w13_sec2",
+          "label": "貳",
+          "title": "選擇題",
+          "scoreInfo": "",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w13_sec3",
+          "label": "參",
+          "title": "應用題",
+          "scoreInfo": "",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [],
+      "questions": [
+        {
+          "id": "math_w13_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sourceNumber": 1,
+          "sectionId": "w13_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "幾何概念辨析",
+          "prompt": "一個半徑 10 公分的 1/2 圓（半圓）扇形，它的周長只要算出半圓弧長 20 × 3.14 ÷ 2 = 31.4 公分就可以了，不用再加上直徑。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "扇形周長必須包含「圓弧長」加上「兩條半徑（即直徑）」，因此這個半圓形扇形的周長是 31.4 + 20 = 51.4 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sourceNumber": 2,
+          "sectionId": "w13_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "扇形比例概念",
+          "prompt": "圓心角為 90 度的扇形，它的圓弧邊長（弧長）剛好是同半徑完整圓周長的 1/4。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "90 ÷ 360 = 1/4，所以圓心角 90 度的扇形弧長佔整個圓周長的 1/4。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q3",
+          "number": 3,
+          "displayNumber": "3",
+          "sourceNumber": 3,
+          "sectionId": "w13_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "生活消費情境",
+          "prompt": "把一個圓形大披薩平分成 6 等份，其中 1 份扇形披薩外圍的「餅皮弧線長度」，是原本整個大披薩圓周長的 1/6。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "平分成 6 等份的扇形圓心角為 360 ÷ 6 = 60 度，佔整個圓的 1/6，弧長也是原圓周長的 1/6。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q4",
+          "number": 4,
+          "displayNumber": "5",
+          "sourceNumber": 5,
+          "sectionId": "w13_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "交通安全情境",
+          "prompt": "汽車前擋風玻璃上的單支雨刷長 45 公分，刷過一次擺動 120 度，雨刷最外端點在玻璃上劃出的弧線長度相當於半徑 45 公分圓周長的 1/3。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "120 ÷ 360 = 1/3，雨刷最外端點移動軌跡即為半徑 45 公分、圓心角 120 度的扇形弧長。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q5",
+          "number": 5,
+          "displayNumber": "6",
+          "sourceNumber": 6,
+          "sectionId": "w13_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "時事情境：2026 新北歡樂耶誕城圓弧星光舞台",
+          "prompt": "根據新北市觀光旅遊網活動資訊，2026 年 11 月 13 日盛大開城的「2026 新北歡樂耶誕城」在主燈區規劃了奇幻互動舞台。假設其中一座「半圓星光舞台」為半徑 10 公尺、圓心角 180 度的扇形（如下圖示意圖）。若工作人員要沿著舞台的「完整外圍邊界」（包含半圓弧線與一條直線舞台邊緣）圍上防撞警示燈條，共需要多長的燈條？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w13_fig1",
+              "caption": "第十三週_第6題_新北耶誕城半圓舞台示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1-IxlfCKOXmGVhXIfA8Wxa3YdiuPUOLD2/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "31.4 公尺"
+            },
+            {
+              "key": "B",
+              "text": "41.4 公尺"
+            },
+            {
+              "key": "C",
+              "text": "51.4 公尺"
+            },
+            {
+              "key": "D",
+              "text": "62.8 公尺"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "半圓弧長 = (10 × 2) × 3.14 ÷ 2 = 31.4 (公尺)。",
+            "舞台完整周長 = 弧長 + 兩條半徑 = 31.4 + 10 + 10 = 51.4 (公尺)。"
+          ],
+          "explanation": "半圓弧長 = (10 × 2) × 3.14 ÷ 2 = 31.4 (公尺)。\n舞台完整周長 = 弧長 + 兩條半徑 = 31.4 + 10 + 10 = 51.4 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q6",
+          "number": 6,
+          "displayNumber": "8",
+          "sourceNumber": 8,
+          "sectionId": "w13_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "交通工程：臺北捷運路線圓弧轉彎段",
+          "prompt": "根據臺北市政府捷運工程局路網規劃資料，捷運一般路線最小曲率半徑定為 200 公尺。假設某段捷運高架路線通過一個半徑 200 公尺、圓心角 45 度的圓弧轉彎段（如下圖示意圖），請問這段轉彎軌道的弧長是多少公尺？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w13_fig2",
+              "caption": "第十三週_第8題_捷運圓弧轉彎段示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1M_fa_BSOL2liHUoetRTXsgo8H0mG6gJi/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "78.5 公尺"
+            },
+            {
+              "key": "B",
+              "text": "157 公尺"
+            },
+            {
+              "key": "C",
+              "text": "314 公尺"
+            },
+            {
+              "key": "D",
+              "text": "557 公尺"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [
+            "圓心角 45 度佔全圓比例 = 45 ÷ 360 = 1/8。",
+            "轉彎軌道弧長 = (200 × 2) × 3.14 × (1/8) = 400 × 3.14 ÷ 8 = 50 × 3.14 = 157 (公尺)。"
+          ],
+          "explanation": "圓心角 45 度佔全圓比例 = 45 ÷ 360 = 1/8。\n轉彎軌道弧長 = (200 × 2) × 3.14 × (1/8) = 400 × 3.14 ÷ 8 = 50 × 3.14 = 157 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q7",
+          "number": 7,
+          "displayNumber": "9",
+          "sourceNumber": 9,
+          "sectionId": "w13_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "生活工藝情境：摺疊圓扇展開周長",
+          "prompt": "一把摺疊圓扇完全打開後，剛好是一個半徑 12 公分、圓心角 120 度的扇形。請問這把扇子張開後的「整個扇形周長」是多少公分？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "25.12 公分"
+            },
+            {
+              "key": "B",
+              "text": "37.12 公分"
+            },
+            {
+              "key": "C",
+              "text": "49.12 公分"
+            },
+            {
+              "key": "D",
+              "text": "75.36 公分"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "120 度佔全圓比例 = 120 ÷ 360 = 1/3。",
+            "弧長 = (12 × 2) × 3.14 × (1/3) = 24 × 3.14 ÷ 3 = 25.12 (公分)。",
+            "扇形周長 = 弧長 + 兩條半徑 = 25.12 + 12 + 12 = 49.12 (公分)。"
+          ],
+          "explanation": "120 度佔全圓比例 = 120 ÷ 360 = 1/3。\n弧長 = (12 × 2) × 3.14 × (1/3) = 24 × 3.14 ÷ 3 = 25.12 (公分)。\n扇形周長 = 弧長 + 兩條半徑 = 25.12 + 12 + 12 = 49.12 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q8",
+          "number": 8,
+          "displayNumber": "10",
+          "sourceNumber": 10,
+          "sectionId": "w13_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "幾何反推：已知扇形弧長求半徑",
+          "prompt": "社區公園裡有一個圓心角 60 度的扇形小花圃，園丁量出這個花圃的圓弧邊長（弧長）是 15.7 公尺。請問這個扇形花圃的「半徑」是多少公尺？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "5 公尺"
+            },
+            {
+              "key": "B",
+              "text": "10 公尺"
+            },
+            {
+              "key": "C",
+              "text": "15 公尺"
+            },
+            {
+              "key": "D",
+              "text": "30 公尺"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "60 度佔全圓比例 = 60 ÷ 360 = 1/6，故完整圓周長 = 15.7 × 6 = 94.2 (公尺)。",
+            "圓直徑 = 94.2 ÷ 3.14 = 30 (公尺)；半徑 = 30 ÷ 2 = 15 (公尺)。"
+          ],
+          "explanation": "60 度佔全圓比例 = 60 ÷ 360 = 1/6，故完整圓周長 = 15.7 × 6 = 94.2 (公尺)。\n圓直徑 = 94.2 ÷ 3.14 = 30 (公尺)；半徑 = 30 ÷ 2 = 15 (公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q9",
+          "number": 9,
+          "displayNumber": "11",
+          "sourceNumber": 11,
+          "sectionId": "w13_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "時鐘幾何情境：教室掛鐘分針針尖移動距離",
+          "prompt": "教室牆上的圓形掛鐘，分針長度（半徑）為 15 公分。從上午 8:00 上課鐘響到 8:40 下課（共經過 40 分鐘，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這 40 分鐘內，分針總共旋轉了多少度？佔整個圓的幾分之幾？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "分針針尖在這段時間內移動的弧線距離是多少公分？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 240 度；佔整個圓的 2/3\n(2) 62.8 公分",
+          "steps": [
+            "分針走一圈 60 分鐘為 360 度，經過 40 分鐘佔全圓的 40 ÷ 60 = 2/3，旋轉角度 = 360 × (2/3) = 240 (度)。",
+            "針尖移動弧長 = (15 × 2) × 3.14 × (2/3) = 30 × 3.14 × (2/3) = 20 × 3.14 = 62.8 (公分)。"
+          ],
+          "explanation": "分針走一圈 60 分鐘為 360 度，經過 40 分鐘佔全圓的 40 ÷ 60 = 2/3，旋轉角度 = 360 × (2/3) = 240 (度)。\n針尖移動弧長 = (15 × 2) × 3.14 × (2/3) = 30 × 3.14 × (2/3) = 20 × 3.14 = 62.8 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q10",
+          "number": 10,
+          "displayNumber": "12",
+          "sourceNumber": 12,
+          "sectionId": "w13_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "安全警示情境：社區停車場反光凸面鏡扇形防護框",
+          "prompt": "社區地下停車場出口轉彎處裝設了一面圓形廣角安全凸面鏡，半徑為 40 公分。為了提醒駕駛人注意視線死角，管委會在鏡面上劃出圓心角 270 度（3/4 圓）的反光警示扇形區域（如下圖示意圖，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這塊 3/4 圓扇形警示區的圓弧邊長（弧長）是多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "若要沿著這塊扇形區域的「全部周界」貼上一圈夜光安全貼條，總共需要幾公分的貼條？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w13_fig3",
+              "caption": "第十三週_第12題_凸面鏡扇形警示區示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1tAD8-1GhUx0JfVpoXP2KvHzOq-nPMOlk/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 188.4 公分\n(2) 268.4 公分",
+          "steps": [
+            "3/4 圓弧長 = (40 × 2) × 3.14 × (3/4) = 80 × 3.14 × (3/4) = 60 × 3.14 = 188.4 (公分)。",
+            "扇形全部周界 = 弧長 + 兩條半徑 = 188.4 + 40 + 40 = 268.4 (公分)。"
+          ],
+          "explanation": "3/4 圓弧長 = (40 × 2) × 3.14 × (3/4) = 80 × 3.14 × (3/4) = 60 × 3.14 = 188.4 (公分)。\n扇形全部周界 = 弧長 + 兩條半徑 = 188.4 + 40 + 40 = 268.4 (公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q11",
+          "number": 11,
+          "displayNumber": "13",
+          "sourceNumber": 13,
+          "sectionId": "w13_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "建築美學情境：正方形花窗內的 1/4 圓弧鐵藝周長",
+          "prompt": "老街文創園區修復傳統建築，在邊長 20 公分的正方形窗框內，以左下角為圓心、邊長 20 公分為半徑，設計了一道 1/4 圓弧形鍛鐵裝飾條，將花窗分成「陰影部分（扇形）」與「空白部分」（如下圖示意圖，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "窗框內這道 1/4 圓弧形鍛鐵裝飾條的長度是多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "請分別算出圖中「陰影部分」的周長與「空白部分」的周長各是多少公分？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w13_fig4",
+              "caption": "第十三週_第13題_正方形花窗扇形示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1b9Ifn71UzmHZXpSOkCL87TtExX7Rb1d2/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 31.4 公分\n(2) 陰影部分周長為 71.4 公分；空白部分周長也為 71.4 公分",
+          "steps": [
+            "1/4 圓弧長 = (20 × 2) × 3.14 × (1/4) = 40 × 3.14 ÷ 4 = 31.4 (公分)。",
+            "陰影部分周長 = 兩條半徑（正方形的兩邊）+ 1/4 圓弧長 = 20 + 20 + 31.4 = 71.4 (公分)。",
+            "空白部分周長 = 正方形另兩條邊長 + 1/4 圓弧長 = 20 + 20 + 31.4 = 71.4 (公分)。兩部分周長相等。"
+          ],
+          "explanation": "1/4 圓弧長 = (20 × 2) × 3.14 × (1/4) = 40 × 3.14 ÷ 4 = 31.4 (公分)。\n陰影部分周長 = 兩條半徑（正方形的兩邊）+ 1/4 圓弧長 = 20 + 20 + 31.4 = 71.4 (公分)。\n空白部分周長 = 正方形另兩條邊長 + 1/4 圓弧長 = 20 + 20 + 31.4 = 71.4 (公分)。兩部分周長相等。",
+          "rubric": []
+        },
+        {
+          "id": "math_w13_q12",
+          "number": 12,
+          "displayNumber": "14",
+          "sourceNumber": 14,
+          "sectionId": "w13_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "穿戴科技情境：智慧手錶圓形錶面電量進度條",
+          "prompt": "爸爸配戴的智慧運動手錶為直徑 4 公分（40 毫米）的圓形錶面，螢幕最外圍有一圈電量環形進度條。當電力剩下 75% 時，進度條顯示為圓心角 270 度的圓弧（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "電力剩下 75% 時，螢幕邊緣亮起的圓弧進度條長度是多少公分？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "當電力充飽至 100%（一整圈）時，進度條比 75% 時長了多少公分？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 9.42 公分\n(2) 3.14 公分",
+          "steps": [
+            "一整圈圓周長 = 4 × 3.14 = 12.56 (公分)。",
+            "電力 75%（270 度，即 3/4 圓）弧長 = 12.56 × (3/4) = 9.42 (公分)。",
+            "100% 比 75% 長的距離 = 12.56 - 9.42 = 3.14 (公分)（或 12.56 × 25% = 3.14 公分）。"
+          ],
+          "explanation": "一整圈圓周長 = 4 × 3.14 = 12.56 (公分)。\n電力 75%（270 度，即 3/4 圓）弧長 = 12.56 × (3/4) = 9.42 (公分)。\n100% 比 75% 長的距離 = 12.56 - 9.42 = 3.14 (公分)（或 12.56 × 25% = 3.14 公分）。",
+          "rubric": []
+        }
+      ]
+    },
+    {
+      "weekNumber": 14,
+      "weekLabel": "第 14 週",
+      "title": "圓面積公式與複合圓面積（11/30～12/04）",
+      "schedule": "第七單元「圓面積與扇形面積」活動一：圓面積",
+      "goals": "用方格紙估算圓面積、透過切割拼湊成長方形理解圓面積公式（半徑 × 半徑 × 3.14）、正方形內最大圓與剩餘面積、同心圓環面積、由圓周長反推圓面積及複合圓形面積。",
+      "sections": [
+        {
+          "id": "w14_sec1",
+          "label": "壹",
+          "title": "是非題",
+          "scoreInfo": "",
+          "defaultType": "true_false"
+        },
+        {
+          "id": "w14_sec2",
+          "label": "貳",
+          "title": "選擇題",
+          "scoreInfo": "",
+          "defaultType": "choice"
+        },
+        {
+          "id": "w14_sec3",
+          "label": "參",
+          "title": "應用題",
+          "scoreInfo": "",
+          "defaultType": "applied"
+        }
+      ],
+      "contexts": [],
+      "questions": [
+        {
+          "id": "math_w14_q1",
+          "number": 1,
+          "displayNumber": "1",
+          "sourceNumber": 1,
+          "sectionId": "w14_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "公式推導概念",
+          "prompt": "把一個圓平分成許多等份的扇形後，交錯拼成一個近似長方形的圖形，這個近似長方形的「長」大約是原來圓的「圓周長的一半」，「寬」大約是原來圓的「半徑」。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "拼成的近似長方形面積等於圓面積，其長 = 圓周長 ÷ 2 = 半徑 × 3.14，寬 = 半徑，因此圓面積 = 半徑 × 3.14 × 半徑。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q2",
+          "number": 2,
+          "displayNumber": "2",
+          "sourceNumber": 2,
+          "sectionId": "w14_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "計算迷思判斷",
+          "prompt": "已知一個圓形餐墊的直徑是 20 公分，它的圓面積大約是 20 × 20 × 3.14 = 1,256 平方公分。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "計算圓面積必須使用「半徑」，不可直接用直徑。直徑 20 公分時，半徑 = 20 ÷ 2 = 10 (公分)，圓面積應為 10 × 10 × 3.14 = 314 (平方公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q3",
+          "number": 3,
+          "displayNumber": "3",
+          "sourceNumber": 3,
+          "sectionId": "w14_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "倍數變化概念",
+          "prompt": "當一個圓的半徑變成原來的 2 倍時，它的圓面積也會變成原來的 2 倍。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "✕",
+          "answerText": "",
+          "steps": [],
+          "explanation": "圓面積與「半徑 × 半徑」成正比，半徑變成原來的 2 倍時，圓面積會變成原來的 2 × 2 = 4 倍。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q4",
+          "number": 4,
+          "displayNumber": "4",
+          "sourceNumber": 4,
+          "sectionId": "w14_sec1",
+          "contextId": null,
+          "type": "true_false",
+          "points": null,
+          "tag": "度量衡概念辨析",
+          "prompt": "一個半徑 2 公分的圓，算出的圓周長是 12.56 公分，圓面積是 12.56 平方公分，雖然數字都是 12.56，但兩者的單位與意義完全不同，不能互相比較大小。",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "○",
+          "answerText": "",
+          "steps": [],
+          "explanation": "公分屬於長度單位，平方公分屬於面積單位，不同類型的物理量無法比較大小。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q5",
+          "number": 5,
+          "displayNumber": "7",
+          "sourceNumber": 7,
+          "sectionId": "w14_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "綠能時事：台電離岸風機葉片掃風圓面積",
+          "prompt": "根據台電月刊《圖解電未來》介紹，台電離岸一期風力發電機的單片葉片長度（即旋轉半徑）達 62 公尺，相當於 19 層樓高。當這座風機的葉片迎風旋轉一整圈時，葉片在空中掃過的圓形面積大約是多少平方公尺？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [
+            {
+              "key": "A",
+              "text": "389.36 平方公尺"
+            },
+            {
+              "key": "B",
+              "text": "3,844 平方公尺"
+            },
+            {
+              "key": "C",
+              "text": "12,070.16 平方公尺"
+            },
+            {
+              "key": "D",
+              "text": "48,280.64 平方公尺"
+            }
+          ],
+          "answer": "C",
+          "answerText": "",
+          "steps": [
+            "葉片掃風圓面積 = 半徑 × 半徑 × 3.14 = 62 × 62 × 3.14 = 3,844 × 3.14 = 12,070.16 (平方公尺)。"
+          ],
+          "explanation": "葉片掃風圓面積 = 半徑 × 半徑 × 3.14 = 62 × 62 × 3.14 = 3,844 × 3.14 = 12,070.16 (平方公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q6",
+          "number": 6,
+          "displayNumber": "10",
+          "sourceNumber": 10,
+          "sectionId": "w14_sec2",
+          "contextId": null,
+          "type": "choice",
+          "points": null,
+          "tag": "創客製造情境：正方形壓克力板裁切最大圓飛盤",
+          "prompt": "學校創客教室有一塊邊長 20 公分的正方形壓克力板，學生使用雷射切割機在正中央切出一個最大的圓形飛盤（如下圖示意圖）。請問切完之後，四個角落剩下的灰色邊料總面積是多少平方公分？（圓周率以 3.14 計算）",
+          "material": "",
+          "subQuestions": [],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w14_fig1",
+              "caption": "第十四週_第10題_正方形裁切最大圓示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/18stS3wYySLEtVhMDQV_8hn_4-vMg-IHS/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "314 平方公分"
+            },
+            {
+              "key": "B",
+              "text": "86 平方公分"
+            },
+            {
+              "key": "C",
+              "text": "43 平方公分"
+            },
+            {
+              "key": "D",
+              "text": "172 平方公分"
+            }
+          ],
+          "answer": "B",
+          "answerText": "",
+          "steps": [
+            "正方形面積 = 20 × 20 = 400 (平方公分)。",
+            "最大圓直徑 = 20 公分，半徑 = 10 公分，圓面積 = 10 × 10 × 3.14 = 314 (平方公分)。",
+            "剩餘灰色邊料面積 = 400 - 314 = 86 (平方公分)。"
+          ],
+          "explanation": "正方形面積 = 20 × 20 = 400 (平方公分)。\n最大圓直徑 = 20 公分，半徑 = 10 公分，圓面積 = 10 × 10 × 3.14 = 314 (平方公分)。\n剩餘灰色邊料面積 = 400 - 314 = 86 (平方公分)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q7",
+          "number": 7,
+          "displayNumber": "11",
+          "sourceNumber": 11,
+          "sectionId": "w14_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "方格紙估算情境：社區圓形生態池面積估算",
+          "prompt": "六年級學生進行社區踏查，在地圖方格紙上畫出社區圓形生態池的形狀（每一小格的邊長代表實際 1 公尺，面積為 1 平方公尺，如下圖示意圖）。",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "若依照「完整格子算 1 格，不完整的格子每 2 格合算成 1 格」的方法估算，圖中整個圓內共有 36 個完整小方格、28 個不完整小方格，請問估算出的生態池面積大約是多少平方公尺？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "若經實測得知此圓形生態池的半徑為 4 公尺，請用圓面積公式算出它的面積是多少平方公尺？（圓周率以 3.14 計算）兩者相差多少平方公尺？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w14_fig2",
+              "caption": "第十四週_第11題_方格紙估算生態池面積圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1zvMX-mZ8f6RgwW3QloDdZ7LF6Z3xuTBz/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 50 平方公尺\n(2) 公式面積為 50.24 平方公尺；兩者相差 0.24 平方公尺",
+          "steps": [
+            "方格紙估算面積 = 36 + (28 ÷ 2) = 36 + 14 = 50 (平方公尺)。",
+            "圓面積公式計算 = 4 × 4 × 3.14 = 50.24 (平方公尺)。",
+            "兩者相差 = 50.24 - 50 = 0.24 (平方公尺)。"
+          ],
+          "explanation": "方格紙估算面積 = 36 + (28 ÷ 2) = 36 + 14 = 50 (平方公尺)。\n圓面積公式計算 = 4 × 4 × 3.14 = 50.24 (平方公尺)。\n兩者相差 = 50.24 - 50 = 0.24 (平方公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q8",
+          "number": 8,
+          "displayNumber": "12",
+          "sourceNumber": 12,
+          "sectionId": "w14_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "海綿校園情境：圓形生態池環形透水步道",
+          "prompt": "學校配合「海綿校園」政策，在直徑 10 公尺的圓形雨水生態池外圍，鋪設一圈寬度為 2 公尺的環形透水磚步道（如下圖示意圖，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "外圓（包含生態池與透水步道）的半徑是多少公尺？外圓的總面積是多少平方公尺？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "這條環形透水步道的實際鋪設面積是多少平方公尺？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w14_fig3",
+              "caption": "第十四週_第12題_生態池與環形步道示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1FIQvzmUDofl1EQhGFgVKguH-Vop2bonU/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 外圓半徑 7 公尺；外圓總面積 153.86 平方公尺\n(2) 75.36 平方公尺",
+          "steps": [
+            "內圓（生態池）半徑 = 10 ÷ 2 = 5 (公尺)；外圓半徑 = 5 + 2 = 7 (公尺)。",
+            "外圓面積 = 7 × 7 × 3.14 = 153.86 (平方公尺)。",
+            "內圓面積 = 5 × 5 × 3.14 = 78.5 (平方公尺)。",
+            "環形步道面積 = 外圓面積 - 內圓面積 = 153.86 - 78.5 = 75.36 (平方公尺)。"
+          ],
+          "explanation": "內圓（生態池）半徑 = 10 ÷ 2 = 5 (公尺)；外圓半徑 = 5 + 2 = 7 (公尺)。\n外圓面積 = 7 × 7 × 3.14 = 153.86 (平方公尺)。\n內圓面積 = 5 × 5 × 3.14 = 78.5 (平方公尺)。\n環形步道面積 = 外圓面積 - 內圓面積 = 153.86 - 78.5 = 75.36 (平方公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q9",
+          "number": 9,
+          "displayNumber": "13",
+          "sourceNumber": 13,
+          "sectionId": "w14_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "社區設施翻新：由圓周長反推直排輪溜冰場面積",
+          "prompt": "市公所準備重新鋪設社區公園圓形直排輪溜冰場的彩色 PU 地坪。工務人員用長捲尺沿著溜冰場外圍繞一圈，測得圓周長剛好為 62.8 公尺（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這座圓形溜冰場的直徑和半徑各是多少公尺？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "重新鋪設這座溜冰場的彩色 PU 地坪，需要鋪設的總面積是多少平方公尺？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 直徑 20 公尺；半徑 10 公尺\n(2) 314 平方公尺",
+          "steps": [
+            "直徑 = 圓周長 ÷ 3.14 = 62.8 ÷ 3.14 = 20 (公尺)；半徑 = 20 ÷ 2 = 10 (公尺)。",
+            "溜冰場面積 = 10 × 10 × 3.14 = 314 (平方公尺)。"
+          ],
+          "explanation": "直徑 = 圓周長 ÷ 3.14 = 62.8 ÷ 3.14 = 20 (公尺)；半徑 = 20 ÷ 2 = 10 (公尺)。\n溜冰場面積 = 10 × 10 × 3.14 = 314 (平方公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q10",
+          "number": 10,
+          "displayNumber": "14",
+          "sourceNumber": 14,
+          "sectionId": "w14_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "智慧農業情境：自動旋轉噴灌系統涵蓋面積比較",
+          "prompt": "桃園有機蔬菜示範農園在菜畦中央安裝了一座 360 度自動旋轉噴水器，水柱最遠可噴灑半徑 6 公尺的圓形菜園（圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "這座噴水器旋轉一整圈，可澆灌的圓形菜園面積是多少平方公尺？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "若農園主人將水壓調強，使噴灑半徑增加為原來的 1.5 倍（變成 9 公尺），新的澆灌面積是多少平方公尺？比原來增加了多少平方公尺？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 113.04 平方公尺\n(2) 新面積 254.34 平方公尺；增加了 141.3 平方公尺",
+          "steps": [
+            "原來澆灌面積 = 6 × 6 × 3.14 = 113.04 (平方公尺)。",
+            "調強後澆灌面積 = 9 × 9 × 3.14 = 254.34 (平方公尺)。",
+            "增加的面積 = 254.34 - 113.04 = 141.3 (平方公尺)。"
+          ],
+          "explanation": "原來澆灌面積 = 6 × 6 × 3.14 = 113.04 (平方公尺)。\n調強後澆灌面積 = 9 × 9 × 3.14 = 254.34 (平方公尺)。\n增加的面積 = 254.34 - 113.04 = 141.3 (平方公尺)。",
+          "rubric": []
+        },
+        {
+          "id": "math_w14_q11",
+          "number": 11,
+          "displayNumber": "15",
+          "sourceNumber": 15,
+          "sectionId": "w14_sec3",
+          "contextId": null,
+          "type": "applied",
+          "points": null,
+          "tag": "公園景觀設計：大圓形廣場內的雙圓玫瑰花圃",
+          "prompt": "文化公園有一座半徑 10 公尺的大圓形廣場，景觀設計師在廣場內部規劃了 2 個並排、直徑各為 10 公尺的圓形玫瑰花圃，其餘灰色區域則鋪設綠地草皮（如下圖示意圖，圓周率以 3.14 計算）：",
+          "material": "",
+          "subQuestions": [
+            {
+              "label": "(1)",
+              "text": "大圓形廣場的總面積是多少平方公尺？",
+              "points": null
+            },
+            {
+              "label": "(2)",
+              "text": "扣除 2 個圓形玫瑰花圃後，剩餘鋪設草皮的灰色區域面積是多少平方公尺？",
+              "points": null
+            }
+          ],
+          "bulletPrompts": [],
+          "stances": [],
+          "stancePrompt": "",
+          "figures": [
+            {
+              "id": "w14_fig4",
+              "caption": "第十四週_第15題_大圓廣場與雙圓花圃示意圖",
+              "src": "",
+              "driveUrl": "https://drive.google.com/file/d/1n4uxmf4j-rAHSgSTmZVcDO7j4O-vx4T8/view?usp=drivesdk",
+              "sourceNote": ""
+            }
+          ],
+          "options": [],
+          "answer": "",
+          "answerText": "(1) 314 平方公尺\n(2) 157 平方公尺",
+          "steps": [
+            "大圓廣場面積 = 10 × 10 × 3.14 = 314 (平方公尺)。",
+            "每個小圓花圃半徑 = 10 ÷ 2 = 5 (公尺)；1 個小圓面積 = 5 × 5 × 3.14 = 78.5 (平方公尺)；2 個小圓總面積 = 78.5 × 2 = 157 (平方公尺)。",
+            "剩餘灰色草皮面積 = 314 - 157 = 157 (平方公尺)。"
+          ],
+          "explanation": "大圓廣場面積 = 10 × 10 × 3.14 = 314 (平方公尺)。\n每個小圓花圃半徑 = 10 ÷ 2 = 5 (公尺)；1 個小圓面積 = 5 × 5 × 3.14 = 78.5 (平方公尺)；2 個小圓總面積 = 78.5 × 2 = 157 (平方公尺)。\n剩餘灰色草皮面積 = 314 - 157 = 157 (平方公尺)。",
+          "rubric": []
+        }
+      ]
+    }
+  ]
+}
