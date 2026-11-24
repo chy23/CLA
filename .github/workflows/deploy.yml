@@ -1,8 +1,12 @@
-name: Build Exam Data & Deploy to GitHub Pages
+name: Sync Drive, Build Exam Data & Deploy to GitHub Pages
 
 on:
   push:
     branches: ["main"]
+  schedule:
+    # 每日台灣時間 04:00 (UTC 20:00) 與每週一 07:30 (UTC 週日 23:30) 自動同步雲端資料夾
+    - cron: "0 20 * * *"
+    - cron: "30 23 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -29,11 +33,34 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install PyMuPDF for PDF parsing
-        run: python3 -m pip install --upgrade pymupdf
+      - name: Install Python dependencies (PyMuPDF, Pillow, gdown)
+        run: python3 -m pip install --upgrade pymupdf pillow gdown
 
-      - name: Build JSON data and extract images from sources/
+      - name: Pre-sync Google Drive folder (if enabled)
+        env:
+          DRIVE_FOLDER_URL: ${{ vars.DRIVE_FOLDER_URL }}
+          DRIVE_FOLDER_CHINESE: ${{ vars.DRIVE_FOLDER_CHINESE }}
+          DRIVE_FOLDER_MATH: ${{ vars.DRIVE_FOLDER_MATH }}
+          DRIVE_FOLDER_SOCIAL: ${{ vars.DRIVE_FOLDER_SOCIAL }}
+        run: python3 scripts/sync_drive.py --phase pre
+
+      - name: Build JSON data and convert PDF figures
         run: python3 scripts/build_data.py
+
+      - name: Post-sync embedded Drive images & PDF figures
+        env:
+          DRIVE_FOLDER_URL: ${{ vars.DRIVE_FOLDER_URL }}
+          DRIVE_FOLDER_CHINESE: ${{ vars.DRIVE_FOLDER_CHINESE }}
+          DRIVE_FOLDER_MATH: ${{ vars.DRIVE_FOLDER_MATH }}
+          DRIVE_FOLDER_SOCIAL: ${{ vars.DRIVE_FOLDER_SOCIAL }}
+        run: python3 scripts/sync_drive.py --phase post
+
+      - name: Prepare clean static artifact directory (_site)
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          cp *.html _site/
+          cp -r css js data assets _site/
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
@@ -43,7 +70,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment

@@ -23,6 +23,12 @@ try:
 except ImportError:
     fitz = None
 
+try:
+    from PIL import Image, ImageOps
+except ImportError:
+    Image = None  # type: ignore[assignment]
+    ImageOps = None  # type: ignore[assignment]
+
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_DIR = ROOT / "sources"
 ASSETS_IMG_DIR = ROOT / "assets" / "images"
@@ -241,10 +247,43 @@ def split_subquestions_and_material(stem: str) -> Tuple[str, str, List[Dict[str,
     return text.strip(), material.strip(), sub_questions, bullet_prompts, stances, stance_prompt
 
 
+def render_pdf_figure_to_png(pdf_path: Path, out_png: Path, dpi: int = 180) -> bool:
+    """
+    將單頁圖檔 PDF 轉為高解析 PNG，並自動裁切多餘白邊（保留適度留白）。
+    """
+    if fitz is None:
+        return False
+    try:
+        doc = fitz.open(str(pdf_path))
+        if len(doc) == 0:
+            return False
+        page = doc[0]
+        zoom = max(1.0, dpi / 72.0)
+        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=False)
+        out_png.parent.mkdir(parents=True, exist_ok=True)
+        if Image is not None and ImageOps is not None:
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            mask = ImageOps.invert(img.convert("L")).point(lambda v: 255 if v > 12 else 0)
+            bbox = mask.getbbox()
+            if bbox:
+                pad = 16
+                left = max(0, bbox[0] - pad)
+                top = max(0, bbox[1] - pad)
+                right = min(img.width, bbox[2] + pad)
+                bottom = min(img.height, bbox[3] + pad)
+                img = img.crop((left, top, right, bottom))
+            img.save(str(out_png), format="PNG", optimize=True)
+        else:
+            pix.save(str(out_png))
+        return out_png.exists() and out_png.stat().st_size > 0
+    except Exception:
+        return False
+
+
 def sync_local_images(subject: str) -> Dict[str, str]:
     """
     掃描 sources/{subject}/images/ 與 assets/images/{subject}/，
-    將 sources 內的圖檔同步到 assets/images/{subject}/，並建立多重索引便於配圖自動對應。
+    將 sources 內的圖檔（含圖檔 PDF）同步／轉檔到 assets/images/{subject}/，並建立多重索引便於配圖自動對應。
     回傳 {匹配鍵: 相對網站路徑}。
     """
     src_img_dir = SOURCES_DIR / subject / "images"
@@ -254,9 +293,16 @@ def sync_local_images(subject: str) -> Dict[str, str]:
     valid_exts = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"}
     if src_img_dir.exists():
         for p in sorted(src_img_dir.iterdir()):
-            if p.is_file() and not p.name.startswith(".") and p.suffix.lower() in valid_exts:
+            if not p.is_file() or p.name.startswith("."):
+                continue
+            suf = p.suffix.lower()
+            if suf in valid_exts:
                 target = dst_img_dir / p.name
                 shutil.copy2(p, target)
+            elif suf == ".pdf":
+                target_png = dst_img_dir / f"{p.stem}.png"
+                if render_pdf_figure_to_png(p, target_png):
+                    print(f"  [圖檔 PDF 轉圖] {p.name} -> {target_png.name}")
 
     mapping: Dict[str, str] = {}
     if dst_img_dir.exists():

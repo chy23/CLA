@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "drive_folder_url": "",
+  "subjects": {
+    "chinese": {
+      "folder_url": "",
+      "keywords": ["國語", "chinese"]
+    },
+    "math": {
+      "folder_url": "",
+      "keywords": ["數學", "math"]
+    },
+    "social": {
+      "folder_url": "",
+      "keywords": ["社會", "social"]
+    }
+  },
+  "fetch_embedded_drive_figures": true,
+  "pdf_image_dpi": 180
+}
